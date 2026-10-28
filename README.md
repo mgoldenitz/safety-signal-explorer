@@ -102,7 +102,7 @@ The 2025 study of esketamine in FAERS (European Journal of Clinical Pharmacology
 - Confounding by indication remains for psychiatric terms, even against other antidepressants, because treatment-resistant depression is more severe than the depression most comparators treat.
 - Spravato is given under supervision in certified clinics with required monitoring, which likely raises its reporting.
 - Esketamine reports jumped from about 1,000 a quarter to 2,444 in 2025 Q2. A burst of reports from one source can create or inflate signals.
-- Esketamine is also used intravenously as an anaesthetic outside North America, and FAERS includes foreign reports. Some esketamine reports, especially the perioperative ones, may not be Spravato. Splitting by route is the next step.
+- Esketamine is also used intravenously as an anaesthetic outside North America, and FAERS includes foreign reports. Of the esketamine report versions loaded, 18,739 name Spravato and about 1,010 give only a generic name ("ESKETAMINE", "ESKETAMINE HYDROCHLORIDE"); 2 name Ketanest, an injectable brand. The generic-name reports could be either product, so a few perioperative reports may not be Spravato. Splitting by route is the next step.
 - The term categories and the organ-class lookup are approximations of the MedDRA hierarchy, which needs a licence.
 - 466 of 51,168 FAERS drug-reaction pairs (0.9%) have no ROR because no report in the comparison group has that reaction (c = 0).
 
