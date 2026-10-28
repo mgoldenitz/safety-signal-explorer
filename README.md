@@ -104,7 +104,7 @@ The 2025 study of esketamine in FAERS (European Journal of Clinical Pharmacology
 - Esketamine reports jumped from about 1,000 a quarter to 2,444 in 2025 Q2. A burst of reports from one source can create or inflate signals.
 - Esketamine is also used intravenously as an anaesthetic outside North America, and FAERS includes foreign reports. Some esketamine reports, especially the perioperative ones, may not be Spravato. Splitting by route is the next step.
 - The term categories and the organ-class lookup are approximations of the MedDRA hierarchy, which needs a licence.
-- 466 of 51,168 FAERS drug-reaction pairs (0.9%) have no ROR because no other report has that reaction (c = 0).
+- 466 of 51,168 FAERS drug-reaction pairs (0.9%) have no ROR because no report in the comparison group has that reaction (c = 0).
 
 ## Run it (WSL)
 
