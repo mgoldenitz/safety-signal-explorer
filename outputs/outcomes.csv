@@ -1,0 +1,132 @@
+exposure,outc_cod,reports,outcome
+bupropion,CA,122,Congenital anomaly
+bupropion,DE,5719,Death
+bupropion,DS,494,Disability
+bupropion,HO,8762,Hospitalization
+bupropion,LT,1675,Life-threatening
+bupropion,OT,15368,Other serious
+bupropion,RI,185,Required intervention
+citalopram,CA,411,Congenital anomaly
+citalopram,DE,4598,Death
+citalopram,DS,902,Disability
+citalopram,HO,6101,Hospitalization
+citalopram,LT,1359,Life-threatening
+citalopram,OT,10816,Other serious
+citalopram,RI,48,Required intervention
+desvenlafaxine,CA,12,Congenital anomaly
+desvenlafaxine,DE,293,Death
+desvenlafaxine,DS,95,Disability
+desvenlafaxine,HO,610,Hospitalization
+desvenlafaxine,LT,109,Life-threatening
+desvenlafaxine,OT,1717,Other serious
+desvenlafaxine,RI,32,Required intervention
+duloxetine,CA,288,Congenital anomaly
+duloxetine,DE,2766,Death
+duloxetine,DS,830,Disability
+duloxetine,HO,6897,Hospitalization
+duloxetine,LT,1192,Life-threatening
+duloxetine,OT,12585,Other serious
+duloxetine,RI,146,Required intervention
+escitalopram,CA,433,Congenital anomaly
+escitalopram,DE,2486,Death
+escitalopram,DS,1393,Disability
+escitalopram,HO,8656,Hospitalization
+escitalopram,LT,2302,Life-threatening
+escitalopram,OT,12583,Other serious
+escitalopram,RI,113,Required intervention
+esketamine,CA,1,Congenital anomaly
+esketamine,DE,720,Death
+esketamine,DS,101,Disability
+esketamine,HO,3400,Hospitalization
+esketamine,LT,391,Life-threatening
+esketamine,OT,9226,Other serious
+esketamine,RI,27,Required intervention
+fluoxetine,CA,258,Congenital anomaly
+fluoxetine,DE,3691,Death
+fluoxetine,DS,941,Disability
+fluoxetine,HO,8483,Hospitalization
+fluoxetine,LT,1937,Life-threatening
+fluoxetine,OT,12104,Other serious
+fluoxetine,RI,84,Required intervention
+ketamine,CA,37,Congenital anomaly
+ketamine,DE,932,Death
+ketamine,DS,80,Disability
+ketamine,HO,3092,Hospitalization
+ketamine,LT,1535,Life-threatening
+ketamine,OT,4394,Other serious
+ketamine,RI,34,Required intervention
+ketamine: anaesthesia or sedation,CA,27,Congenital anomaly
+ketamine: anaesthesia or sedation,DE,173,Death
+ketamine: anaesthesia or sedation,DS,37,Disability
+ketamine: anaesthesia or sedation,HO,1124,Hospitalization
+ketamine: anaesthesia or sedation,LT,944,Life-threatening
+ketamine: anaesthesia or sedation,OT,1370,Other serious
+ketamine: anaesthesia or sedation,RI,7,Required intervention
+ketamine: other,CA,7,Congenital anomaly
+ketamine: other,DE,109,Death
+ketamine: other,DS,10,Disability
+ketamine: other,HO,726,Hospitalization
+ketamine: other,LT,264,Life-threatening
+ketamine: other,OT,1103,Other serious
+ketamine: other,RI,8,Required intervention
+ketamine: pain,DE,92,Death
+ketamine: pain,DS,15,Disability
+ketamine: pain,HO,375,Hospitalization
+ketamine: pain,LT,89,Life-threatening
+ketamine: pain,OT,531,Other serious
+ketamine: pain,RI,9,Required intervention
+ketamine: psychiatric,DE,15,Death
+ketamine: psychiatric,DS,13,Disability
+ketamine: psychiatric,HO,92,Hospitalization
+ketamine: psychiatric,LT,21,Life-threatening
+ketamine: psychiatric,OT,162,Other serious
+ketamine: psychiatric,RI,6,Required intervention
+ketamine: unknown,CA,3,Congenital anomaly
+ketamine: unknown,DE,553,Death
+ketamine: unknown,DS,14,Disability
+ketamine: unknown,HO,871,Hospitalization
+ketamine: unknown,LT,251,Life-threatening
+ketamine: unknown,OT,1365,Other serious
+ketamine: unknown,RI,8,Required intervention
+mirtazapine,CA,207,Congenital anomaly
+mirtazapine,DE,3584,Death
+mirtazapine,DS,983,Disability
+mirtazapine,HO,8511,Hospitalization
+mirtazapine,LT,1784,Life-threatening
+mirtazapine,OT,12110,Other serious
+mirtazapine,RI,49,Required intervention
+paroxetine,CA,384,Congenital anomaly
+paroxetine,DE,1937,Death
+paroxetine,DS,548,Disability
+paroxetine,HO,5802,Hospitalization
+paroxetine,LT,1293,Life-threatening
+paroxetine,OT,7710,Other serious
+paroxetine,RI,36,Required intervention
+sertraline,CA,778,Congenital anomaly
+sertraline,DE,4408,Death
+sertraline,DS,3335,Disability
+sertraline,HO,14355,Hospitalization
+sertraline,LT,3626,Life-threatening
+sertraline,OT,25123,Other serious
+sertraline,RI,150,Required intervention
+trazodone,CA,263,Congenital anomaly
+trazodone,DE,4152,Death
+trazodone,DS,545,Disability
+trazodone,HO,5543,Hospitalization
+trazodone,LT,1298,Life-threatening
+trazodone,OT,7534,Other serious
+trazodone,RI,94,Required intervention
+venlafaxine,CA,641,Congenital anomaly
+venlafaxine,DE,4925,Death
+venlafaxine,DS,1220,Disability
+venlafaxine,HO,11447,Hospitalization
+venlafaxine,LT,2848,Life-threatening
+venlafaxine,OT,18170,Other serious
+venlafaxine,RI,111,Required intervention
+vortioxetine,CA,38,Congenital anomaly
+vortioxetine,DE,680,Death
+vortioxetine,DS,258,Disability
+vortioxetine,HO,1854,Hospitalization
+vortioxetine,LT,252,Life-threatening
+vortioxetine,OT,4121,Other serious
+vortioxetine,RI,24,Required intervention

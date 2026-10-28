@@ -1,0 +1,341 @@
+exposure,sex,age_band,reports
+bupropion,Female,18 to 29,1809
+bupropion,Female,30 to 44,3233
+bupropion,Female,45 to 64,4508
+bupropion,Female,65 and over,1627
+bupropion,Female,Not reported,5838
+bupropion,Female,Under 18,594
+bupropion,Male,18 to 29,1048
+bupropion,Male,30 to 44,1562
+bupropion,Male,45 to 64,1793
+bupropion,Male,65 and over,716
+bupropion,Male,Not reported,1612
+bupropion,Male,Under 18,331
+bupropion,Not reported,18 to 29,171
+bupropion,Not reported,30 to 44,138
+bupropion,Not reported,45 to 64,158
+bupropion,Not reported,65 and over,49
+bupropion,Not reported,Not reported,7698
+bupropion,Not reported,Under 18,85
+citalopram,Female,18 to 29,981
+citalopram,Female,30 to 44,1467
+citalopram,Female,45 to 64,2461
+citalopram,Female,65 and over,2223
+citalopram,Female,Not reported,2434
+citalopram,Female,Under 18,397
+citalopram,Male,18 to 29,721
+citalopram,Male,30 to 44,1108
+citalopram,Male,45 to 64,1432
+citalopram,Male,65 and over,1010
+citalopram,Male,Not reported,1429
+citalopram,Male,Under 18,273
+citalopram,Not reported,18 to 29,27
+citalopram,Not reported,30 to 44,72
+citalopram,Not reported,45 to 64,89
+citalopram,Not reported,65 and over,45
+citalopram,Not reported,Not reported,1668
+citalopram,Not reported,Under 18,18
+desvenlafaxine,Female,18 to 29,148
+desvenlafaxine,Female,30 to 44,411
+desvenlafaxine,Female,45 to 64,981
+desvenlafaxine,Female,65 and over,640
+desvenlafaxine,Female,Not reported,656
+desvenlafaxine,Female,Under 18,67
+desvenlafaxine,Male,18 to 29,49
+desvenlafaxine,Male,30 to 44,136
+desvenlafaxine,Male,45 to 64,279
+desvenlafaxine,Male,65 and over,173
+desvenlafaxine,Male,Not reported,160
+desvenlafaxine,Male,Under 18,39
+desvenlafaxine,Not reported,18 to 29,8
+desvenlafaxine,Not reported,30 to 44,38
+desvenlafaxine,Not reported,45 to 64,116
+desvenlafaxine,Not reported,65 and over,111
+desvenlafaxine,Not reported,Not reported,658
+desvenlafaxine,Not reported,Under 18,4
+duloxetine,Female,18 to 29,748
+duloxetine,Female,30 to 44,2284
+duloxetine,Female,45 to 64,4164
+duloxetine,Female,65 and over,3269
+duloxetine,Female,Not reported,2745
+duloxetine,Female,Under 18,298
+duloxetine,Male,18 to 29,299
+duloxetine,Male,30 to 44,839
+duloxetine,Male,45 to 64,2030
+duloxetine,Male,65 and over,1365
+duloxetine,Male,Not reported,887
+duloxetine,Male,Under 18,173
+duloxetine,Not reported,18 to 29,48
+duloxetine,Not reported,30 to 44,67
+duloxetine,Not reported,45 to 64,125
+duloxetine,Not reported,65 and over,81
+duloxetine,Not reported,Not reported,2604
+duloxetine,Not reported,Under 18,40
+escitalopram,Female,18 to 29,1252
+escitalopram,Female,30 to 44,2029
+escitalopram,Female,45 to 64,2390
+escitalopram,Female,65 and over,2369
+escitalopram,Female,Not reported,2769
+escitalopram,Female,Under 18,639
+escitalopram,Male,18 to 29,808
+escitalopram,Male,30 to 44,953
+escitalopram,Male,45 to 64,1641
+escitalopram,Male,65 and over,1503
+escitalopram,Male,Not reported,1575
+escitalopram,Male,Under 18,337
+escitalopram,Not reported,18 to 29,64
+escitalopram,Not reported,30 to 44,55
+escitalopram,Not reported,45 to 64,89
+escitalopram,Not reported,65 and over,69
+escitalopram,Not reported,Not reported,3218
+escitalopram,Not reported,Under 18,63
+esketamine,Female,18 to 29,1014
+esketamine,Female,30 to 44,2367
+esketamine,Female,45 to 64,3345
+esketamine,Female,65 and over,1021
+esketamine,Female,Not reported,2265
+esketamine,Female,Under 18,51
+esketamine,Male,18 to 29,514
+esketamine,Male,30 to 44,1229
+esketamine,Male,45 to 64,1694
+esketamine,Male,65 and over,576
+esketamine,Male,Not reported,1132
+esketamine,Male,Under 18,16
+esketamine,Not reported,18 to 29,40
+esketamine,Not reported,30 to 44,57
+esketamine,Not reported,45 to 64,74
+esketamine,Not reported,65 and over,25
+esketamine,Not reported,Not reported,2640
+esketamine,Not reported,Under 18,8
+fluoxetine,Female,18 to 29,2059
+fluoxetine,Female,30 to 44,2166
+fluoxetine,Female,45 to 64,2678
+fluoxetine,Female,65 and over,1801
+fluoxetine,Female,Not reported,2247
+fluoxetine,Female,Under 18,1682
+fluoxetine,Male,18 to 29,927
+fluoxetine,Male,30 to 44,1036
+fluoxetine,Male,45 to 64,1326
+fluoxetine,Male,65 and over,717
+fluoxetine,Male,Not reported,976
+fluoxetine,Male,Under 18,855
+fluoxetine,Not reported,18 to 29,48
+fluoxetine,Not reported,30 to 44,55
+fluoxetine,Not reported,45 to 64,58
+fluoxetine,Not reported,65 and over,38
+fluoxetine,Not reported,Not reported,2279
+fluoxetine,Not reported,Under 18,115
+ketamine,Female,18 to 29,597
+ketamine,Female,30 to 44,629
+ketamine,Female,45 to 64,787
+ketamine,Female,65 and over,460
+ketamine,Female,Not reported,230
+ketamine,Female,Under 18,319
+ketamine,Male,18 to 29,571
+ketamine,Male,30 to 44,710
+ketamine,Male,45 to 64,896
+ketamine,Male,65 and over,485
+ketamine,Male,Not reported,258
+ketamine,Male,Under 18,425
+ketamine,Not reported,18 to 29,19
+ketamine,Not reported,30 to 44,27
+ketamine,Not reported,45 to 64,27
+ketamine,Not reported,65 and over,11
+ketamine,Not reported,Not reported,690
+ketamine,Not reported,Under 18,45
+ketamine: anaesthesia or sedation,Female,18 to 29,223
+ketamine: anaesthesia or sedation,Female,30 to 44,257
+ketamine: anaesthesia or sedation,Female,45 to 64,345
+ketamine: anaesthesia or sedation,Female,65 and over,299
+ketamine: anaesthesia or sedation,Female,Not reported,44
+ketamine: anaesthesia or sedation,Female,Under 18,166
+ketamine: anaesthesia or sedation,Male,18 to 29,141
+ketamine: anaesthesia or sedation,Male,30 to 44,154
+ketamine: anaesthesia or sedation,Male,45 to 64,262
+ketamine: anaesthesia or sedation,Male,65 and over,298
+ketamine: anaesthesia or sedation,Male,Not reported,41
+ketamine: anaesthesia or sedation,Male,Under 18,159
+ketamine: anaesthesia or sedation,Not reported,18 to 29,3
+ketamine: anaesthesia or sedation,Not reported,30 to 44,6
+ketamine: anaesthesia or sedation,Not reported,45 to 64,2
+ketamine: anaesthesia or sedation,Not reported,65 and over,6
+ketamine: anaesthesia or sedation,Not reported,Not reported,160
+ketamine: anaesthesia or sedation,Not reported,Under 18,17
+ketamine: other,Female,18 to 29,78
+ketamine: other,Female,30 to 44,102
+ketamine: other,Female,45 to 64,155
+ketamine: other,Female,65 and over,80
+ketamine: other,Female,Not reported,62
+ketamine: other,Female,Under 18,72
+ketamine: other,Male,18 to 29,88
+ketamine: other,Male,30 to 44,170
+ketamine: other,Male,45 to 64,320
+ketamine: other,Male,65 and over,54
+ketamine: other,Male,Not reported,69
+ketamine: other,Male,Under 18,145
+ketamine: other,Not reported,18 to 29,4
+ketamine: other,Not reported,30 to 44,3
+ketamine: other,Not reported,45 to 64,16
+ketamine: other,Not reported,65 and over,1
+ketamine: other,Not reported,Not reported,208
+ketamine: other,Not reported,Under 18,7
+ketamine: pain,Female,18 to 29,67
+ketamine: pain,Female,30 to 44,61
+ketamine: pain,Female,45 to 64,139
+ketamine: pain,Female,65 and over,38
+ketamine: pain,Female,Not reported,20
+ketamine: pain,Female,Under 18,34
+ketamine: pain,Male,18 to 29,44
+ketamine: pain,Male,30 to 44,77
+ketamine: pain,Male,45 to 64,95
+ketamine: pain,Male,65 and over,32
+ketamine: pain,Male,Not reported,26
+ketamine: pain,Male,Under 18,27
+ketamine: pain,Not reported,18 to 29,1
+ketamine: pain,Not reported,30 to 44,2
+ketamine: pain,Not reported,45 to 64,3
+ketamine: pain,Not reported,Not reported,91
+ketamine: pain,Not reported,Under 18,2
+ketamine: psychiatric,Female,18 to 29,9
+ketamine: psychiatric,Female,30 to 44,25
+ketamine: psychiatric,Female,45 to 64,38
+ketamine: psychiatric,Female,65 and over,8
+ketamine: psychiatric,Female,Not reported,19
+ketamine: psychiatric,Female,Under 18,6
+ketamine: psychiatric,Male,18 to 29,10
+ketamine: psychiatric,Male,30 to 44,56
+ketamine: psychiatric,Male,45 to 64,30
+ketamine: psychiatric,Male,65 and over,4
+ketamine: psychiatric,Male,Not reported,9
+ketamine: psychiatric,Male,Under 18,5
+ketamine: psychiatric,Not reported,18 to 29,2
+ketamine: psychiatric,Not reported,30 to 44,1
+ketamine: psychiatric,Not reported,45 to 64,1
+ketamine: psychiatric,Not reported,Not reported,24
+ketamine: psychiatric,Not reported,Under 18,4
+ketamine: unknown,Female,18 to 29,232
+ketamine: unknown,Female,30 to 44,193
+ketamine: unknown,Female,45 to 64,131
+ketamine: unknown,Female,65 and over,57
+ketamine: unknown,Female,Not reported,93
+ketamine: unknown,Female,Under 18,57
+ketamine: unknown,Male,18 to 29,300
+ketamine: unknown,Male,30 to 44,277
+ketamine: unknown,Male,45 to 64,209
+ketamine: unknown,Male,65 and over,103
+ketamine: unknown,Male,Not reported,120
+ketamine: unknown,Male,Under 18,104
+ketamine: unknown,Not reported,18 to 29,10
+ketamine: unknown,Not reported,30 to 44,15
+ketamine: unknown,Not reported,45 to 64,5
+ketamine: unknown,Not reported,65 and over,4
+ketamine: unknown,Not reported,Not reported,228
+ketamine: unknown,Not reported,Under 18,15
+mirtazapine,Female,18 to 29,993
+mirtazapine,Female,30 to 44,1616
+mirtazapine,Female,45 to 64,2646
+mirtazapine,Female,65 and over,3651
+mirtazapine,Female,Not reported,1554
+mirtazapine,Female,Under 18,428
+mirtazapine,Male,18 to 29,689
+mirtazapine,Male,30 to 44,1487
+mirtazapine,Male,45 to 64,2117
+mirtazapine,Male,65 and over,1949
+mirtazapine,Male,Not reported,914
+mirtazapine,Male,Under 18,253
+mirtazapine,Not reported,18 to 29,35
+mirtazapine,Not reported,30 to 44,38
+mirtazapine,Not reported,45 to 64,146
+mirtazapine,Not reported,65 and over,76
+mirtazapine,Not reported,Not reported,1855
+mirtazapine,Not reported,Under 18,20
+paroxetine,Female,18 to 29,731
+paroxetine,Female,30 to 44,1163
+paroxetine,Female,45 to 64,1919
+paroxetine,Female,65 and over,2079
+paroxetine,Female,Not reported,1077
+paroxetine,Female,Under 18,286
+paroxetine,Male,18 to 29,521
+paroxetine,Male,30 to 44,934
+paroxetine,Male,45 to 64,1309
+paroxetine,Male,65 and over,1055
+paroxetine,Male,Not reported,505
+paroxetine,Male,Under 18,165
+paroxetine,Not reported,18 to 29,17
+paroxetine,Not reported,30 to 44,22
+paroxetine,Not reported,45 to 64,38
+paroxetine,Not reported,65 and over,31
+paroxetine,Not reported,Not reported,1667
+paroxetine,Not reported,Under 18,49
+sertraline,Female,18 to 29,3853
+sertraline,Female,30 to 44,4337
+sertraline,Female,45 to 64,4432
+sertraline,Female,65 and over,4280
+sertraline,Female,Not reported,3431
+sertraline,Female,Under 18,2500
+sertraline,Male,18 to 29,1822
+sertraline,Male,30 to 44,2419
+sertraline,Male,45 to 64,3476
+sertraline,Male,65 and over,2308
+sertraline,Male,Not reported,1796
+sertraline,Male,Under 18,1298
+sertraline,Not reported,18 to 29,116
+sertraline,Not reported,30 to 44,100
+sertraline,Not reported,45 to 64,174
+sertraline,Not reported,65 and over,145
+sertraline,Not reported,Not reported,4341
+sertraline,Not reported,Under 18,118
+trazodone,Female,18 to 29,555
+trazodone,Female,30 to 44,1488
+trazodone,Female,45 to 64,2517
+trazodone,Female,65 and over,1946
+trazodone,Female,Not reported,916
+trazodone,Female,Under 18,146
+trazodone,Male,18 to 29,526
+trazodone,Male,30 to 44,788
+trazodone,Male,45 to 64,1275
+trazodone,Male,65 and over,1039
+trazodone,Male,Not reported,520
+trazodone,Male,Under 18,133
+trazodone,Not reported,18 to 29,8
+trazodone,Not reported,30 to 44,39
+trazodone,Not reported,45 to 64,97
+trazodone,Not reported,65 and over,43
+trazodone,Not reported,Not reported,1249
+trazodone,Not reported,Under 18,40
+venlafaxine,Female,18 to 29,1990
+venlafaxine,Female,30 to 44,3683
+venlafaxine,Female,45 to 64,5518
+venlafaxine,Female,65 and over,3553
+venlafaxine,Female,Not reported,2934
+venlafaxine,Female,Under 18,638
+venlafaxine,Male,18 to 29,1042
+venlafaxine,Male,30 to 44,2034
+venlafaxine,Male,45 to 64,2883
+venlafaxine,Male,65 and over,1559
+venlafaxine,Male,Not reported,1277
+venlafaxine,Male,Under 18,432
+venlafaxine,Not reported,18 to 29,46
+venlafaxine,Not reported,30 to 44,73
+venlafaxine,Not reported,45 to 64,183
+venlafaxine,Not reported,65 and over,81
+venlafaxine,Not reported,Not reported,3533
+venlafaxine,Not reported,Under 18,38
+vortioxetine,Female,18 to 29,451
+vortioxetine,Female,30 to 44,725
+vortioxetine,Female,45 to 64,1011
+vortioxetine,Female,65 and over,913
+vortioxetine,Female,Not reported,1943
+vortioxetine,Female,Under 18,84
+vortioxetine,Male,18 to 29,290
+vortioxetine,Male,30 to 44,430
+vortioxetine,Male,45 to 64,592
+vortioxetine,Male,65 and over,365
+vortioxetine,Male,Not reported,869
+vortioxetine,Male,Under 18,34
+vortioxetine,Not reported,18 to 29,17
+vortioxetine,Not reported,30 to 44,13
+vortioxetine,Not reported,45 to 64,33
+vortioxetine,Not reported,65 and over,22
+vortioxetine,Not reported,Not reported,1177
+vortioxetine,Not reported,Under 18,6

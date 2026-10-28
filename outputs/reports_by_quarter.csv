@@ -1,0 +1,571 @@
+exposure,quarter,reports,serious,year
+bupropion,2019Q1,1407,1013,2019
+bupropion,2019Q2,799,457,2019
+bupropion,2019Q3,722,436,2019
+bupropion,2019Q4,830,577,2019
+bupropion,2020Q1,1239,1006,2020
+bupropion,2020Q2,656,479,2020
+bupropion,2020Q3,654,463,2020
+bupropion,2020Q4,941,599,2020
+bupropion,2021Q1,1111,912,2021
+bupropion,2021Q2,733,562,2021
+bupropion,2021Q3,958,763,2021
+bupropion,2021Q4,731,553,2021
+bupropion,2022Q1,1104,948,2022
+bupropion,2022Q2,696,532,2022
+bupropion,2022Q3,720,549,2022
+bupropion,2022Q4,776,534,2022
+bupropion,2023Q1,1291,934,2023
+bupropion,2023Q2,930,560,2023
+bupropion,2023Q3,886,620,2023
+bupropion,2023Q4,993,714,2023
+bupropion,2024Q1,1135,749,2024
+bupropion,2024Q2,1016,677,2024
+bupropion,2024Q3,1463,551,2024
+bupropion,2024Q4,2026,727,2024
+bupropion,2025Q1,2757,909,2025
+bupropion,2025Q2,1017,626,2025
+bupropion,2025Q3,1102,785,2025
+bupropion,2025Q4,1703,631,2025
+bupropion,2026Q1,1221,922,2026
+bupropion,2026Q2,1353,982,2026
+citalopram,2019Q1,953,885,2019
+citalopram,2019Q2,733,666,2019
+citalopram,2019Q3,1086,891,2019
+citalopram,2019Q4,823,727,2019
+citalopram,2020Q1,1017,966,2020
+citalopram,2020Q2,601,572,2020
+citalopram,2020Q3,695,592,2020
+citalopram,2020Q4,604,557,2020
+citalopram,2021Q1,672,643,2021
+citalopram,2021Q2,516,484,2021
+citalopram,2021Q3,488,415,2021
+citalopram,2021Q4,540,495,2021
+citalopram,2022Q1,644,617,2022
+citalopram,2022Q2,383,362,2022
+citalopram,2022Q3,346,323,2022
+citalopram,2022Q4,476,442,2022
+citalopram,2023Q1,580,544,2023
+citalopram,2023Q2,428,387,2023
+citalopram,2023Q3,414,386,2023
+citalopram,2023Q4,422,397,2023
+citalopram,2024Q1,647,619,2024
+citalopram,2024Q2,410,390,2024
+citalopram,2024Q3,414,390,2024
+citalopram,2024Q4,438,404,2024
+citalopram,2025Q1,544,513,2025
+citalopram,2025Q2,1098,1082,2025
+citalopram,2025Q3,438,412,2025
+citalopram,2025Q4,434,404,2025
+citalopram,2026Q1,505,476,2026
+citalopram,2026Q2,506,469,2026
+desvenlafaxine,2019Q1,200,89,2019
+desvenlafaxine,2019Q2,236,73,2019
+desvenlafaxine,2019Q3,202,80,2019
+desvenlafaxine,2019Q4,190,85,2019
+desvenlafaxine,2020Q1,266,121,2020
+desvenlafaxine,2020Q2,245,133,2020
+desvenlafaxine,2020Q3,198,91,2020
+desvenlafaxine,2020Q4,198,83,2020
+desvenlafaxine,2021Q1,227,103,2021
+desvenlafaxine,2021Q2,108,50,2021
+desvenlafaxine,2021Q3,161,92,2021
+desvenlafaxine,2021Q4,141,67,2021
+desvenlafaxine,2022Q1,217,102,2022
+desvenlafaxine,2022Q2,291,92,2022
+desvenlafaxine,2022Q3,190,98,2022
+desvenlafaxine,2022Q4,182,82,2022
+desvenlafaxine,2023Q1,202,92,2023
+desvenlafaxine,2023Q2,125,58,2023
+desvenlafaxine,2023Q3,122,50,2023
+desvenlafaxine,2023Q4,124,69,2023
+desvenlafaxine,2024Q1,93,56,2024
+desvenlafaxine,2024Q2,108,63,2024
+desvenlafaxine,2024Q3,75,42,2024
+desvenlafaxine,2024Q4,83,45,2024
+desvenlafaxine,2025Q1,108,68,2025
+desvenlafaxine,2025Q2,96,57,2025
+desvenlafaxine,2025Q3,82,54,2025
+desvenlafaxine,2025Q4,57,28,2025
+desvenlafaxine,2026Q1,60,39,2026
+desvenlafaxine,2026Q2,87,56,2026
+duloxetine,2019Q1,1009,628,2019
+duloxetine,2019Q2,837,567,2019
+duloxetine,2019Q3,847,556,2019
+duloxetine,2019Q4,984,688,2019
+duloxetine,2020Q1,984,730,2020
+duloxetine,2020Q2,661,546,2020
+duloxetine,2020Q3,730,596,2020
+duloxetine,2020Q4,820,602,2020
+duloxetine,2021Q1,941,754,2021
+duloxetine,2021Q2,577,476,2021
+duloxetine,2021Q3,666,577,2021
+duloxetine,2021Q4,712,594,2021
+duloxetine,2022Q1,820,728,2022
+duloxetine,2022Q2,680,574,2022
+duloxetine,2022Q3,656,567,2022
+duloxetine,2022Q4,605,522,2022
+duloxetine,2023Q1,684,604,2023
+duloxetine,2023Q2,673,546,2023
+duloxetine,2023Q3,704,595,2023
+duloxetine,2023Q4,638,548,2023
+duloxetine,2024Q1,728,659,2024
+duloxetine,2024Q2,622,530,2024
+duloxetine,2024Q3,610,519,2024
+duloxetine,2024Q4,622,513,2024
+duloxetine,2025Q1,644,560,2025
+duloxetine,2025Q2,650,575,2025
+duloxetine,2025Q3,783,661,2025
+duloxetine,2025Q4,683,588,2025
+duloxetine,2026Q1,770,680,2026
+duloxetine,2026Q2,726,627,2026
+escitalopram,2019Q1,879,774,2019
+escitalopram,2019Q2,713,629,2019
+escitalopram,2019Q3,923,632,2019
+escitalopram,2019Q4,820,687,2019
+escitalopram,2020Q1,884,798,2020
+escitalopram,2020Q2,648,595,2020
+escitalopram,2020Q3,1039,827,2020
+escitalopram,2020Q4,620,542,2020
+escitalopram,2021Q1,692,649,2021
+escitalopram,2021Q2,449,399,2021
+escitalopram,2021Q3,703,616,2021
+escitalopram,2021Q4,603,512,2021
+escitalopram,2022Q1,680,643,2022
+escitalopram,2022Q2,484,438,2022
+escitalopram,2022Q3,699,523,2022
+escitalopram,2022Q4,629,556,2022
+escitalopram,2023Q1,769,690,2023
+escitalopram,2023Q2,680,579,2023
+escitalopram,2023Q3,728,618,2023
+escitalopram,2023Q4,632,530,2023
+escitalopram,2024Q1,834,771,2024
+escitalopram,2024Q2,746,652,2024
+escitalopram,2024Q3,762,662,2024
+escitalopram,2024Q4,686,606,2024
+escitalopram,2025Q1,839,768,2025
+escitalopram,2025Q2,750,667,2025
+escitalopram,2025Q3,758,687,2025
+escitalopram,2025Q4,678,577,2025
+escitalopram,2026Q1,701,613,2026
+escitalopram,2026Q2,795,699,2026
+esketamine,2019Q1,2,1,2019
+esketamine,2019Q2,56,24,2019
+esketamine,2019Q3,218,101,2019
+esketamine,2019Q4,350,144,2019
+esketamine,2020Q1,317,143,2020
+esketamine,2020Q2,254,132,2020
+esketamine,2020Q3,280,151,2020
+esketamine,2020Q4,286,151,2020
+esketamine,2021Q1,290,154,2021
+esketamine,2021Q2,362,196,2021
+esketamine,2021Q3,310,179,2021
+esketamine,2021Q4,349,226,2021
+esketamine,2022Q1,351,222,2022
+esketamine,2022Q2,346,209,2022
+esketamine,2022Q3,431,247,2022
+esketamine,2022Q4,407,252,2022
+esketamine,2023Q1,444,300,2023
+esketamine,2023Q2,490,335,2023
+esketamine,2023Q3,511,373,2023
+esketamine,2023Q4,711,518,2023
+esketamine,2024Q1,719,512,2024
+esketamine,2024Q2,898,635,2024
+esketamine,2024Q3,792,617,2024
+esketamine,2024Q4,771,600,2024
+esketamine,2025Q1,1055,787,2025
+esketamine,2025Q2,2444,2067,2025
+esketamine,2025Q3,1390,1097,2025
+esketamine,2025Q4,1263,958,2025
+esketamine,2026Q1,1002,748,2026
+esketamine,2026Q2,969,715,2026
+fluoxetine,2019Q1,954,820,2019
+fluoxetine,2019Q2,761,631,2019
+fluoxetine,2019Q3,759,651,2019
+fluoxetine,2019Q4,883,784,2019
+fluoxetine,2020Q1,922,845,2020
+fluoxetine,2020Q2,597,532,2020
+fluoxetine,2020Q3,718,643,2020
+fluoxetine,2020Q4,614,555,2020
+fluoxetine,2021Q1,844,749,2021
+fluoxetine,2021Q2,514,448,2021
+fluoxetine,2021Q3,589,530,2021
+fluoxetine,2021Q4,577,520,2021
+fluoxetine,2022Q1,849,792,2022
+fluoxetine,2022Q2,529,469,2022
+fluoxetine,2022Q3,483,441,2022
+fluoxetine,2022Q4,608,559,2022
+fluoxetine,2023Q1,826,751,2023
+fluoxetine,2023Q2,587,507,2023
+fluoxetine,2023Q3,687,606,2023
+fluoxetine,2023Q4,614,568,2023
+fluoxetine,2024Q1,949,864,2024
+fluoxetine,2024Q2,754,688,2024
+fluoxetine,2024Q3,609,537,2024
+fluoxetine,2024Q4,588,523,2024
+fluoxetine,2025Q1,752,663,2025
+fluoxetine,2025Q2,669,599,2025
+fluoxetine,2025Q3,705,640,2025
+fluoxetine,2025Q4,656,589,2025
+fluoxetine,2026Q1,756,665,2026
+fluoxetine,2026Q2,710,634,2026
+ketamine,2019Q1,134,127,2019
+ketamine,2019Q2,156,145,2019
+ketamine,2019Q3,171,165,2019
+ketamine,2019Q4,165,154,2019
+ketamine,2020Q1,193,188,2020
+ketamine,2020Q2,166,154,2020
+ketamine,2020Q3,225,215,2020
+ketamine,2020Q4,175,166,2020
+ketamine,2021Q1,174,162,2021
+ketamine,2021Q2,151,144,2021
+ketamine,2021Q3,198,191,2021
+ketamine,2021Q4,156,148,2021
+ketamine,2022Q1,148,141,2022
+ketamine,2022Q2,201,191,2022
+ketamine,2022Q3,156,150,2022
+ketamine,2022Q4,241,235,2022
+ketamine,2023Q1,307,299,2023
+ketamine,2023Q2,285,272,2023
+ketamine,2023Q3,264,255,2023
+ketamine,2023Q4,195,187,2023
+ketamine,2024Q1,213,204,2024
+ketamine,2024Q2,262,254,2024
+ketamine,2024Q3,304,296,2024
+ketamine,2024Q4,343,338,2024
+ketamine,2025Q1,364,338,2025
+ketamine,2025Q2,406,391,2025
+ketamine,2025Q3,364,352,2025
+ketamine,2025Q4,355,346,2025
+ketamine,2026Q1,343,326,2026
+ketamine,2026Q2,371,349,2026
+ketamine: anaesthesia or sedation,2019Q1,49,49,2019
+ketamine: anaesthesia or sedation,2019Q2,58,58,2019
+ketamine: anaesthesia or sedation,2019Q3,92,91,2019
+ketamine: anaesthesia or sedation,2019Q4,70,70,2019
+ketamine: anaesthesia or sedation,2020Q1,80,78,2020
+ketamine: anaesthesia or sedation,2020Q2,87,82,2020
+ketamine: anaesthesia or sedation,2020Q3,105,103,2020
+ketamine: anaesthesia or sedation,2020Q4,95,95,2020
+ketamine: anaesthesia or sedation,2021Q1,54,54,2021
+ketamine: anaesthesia or sedation,2021Q2,53,53,2021
+ketamine: anaesthesia or sedation,2021Q3,44,44,2021
+ketamine: anaesthesia or sedation,2021Q4,53,52,2021
+ketamine: anaesthesia or sedation,2022Q1,49,46,2022
+ketamine: anaesthesia or sedation,2022Q2,78,75,2022
+ketamine: anaesthesia or sedation,2022Q3,78,78,2022
+ketamine: anaesthesia or sedation,2022Q4,110,110,2022
+ketamine: anaesthesia or sedation,2023Q1,125,125,2023
+ketamine: anaesthesia or sedation,2023Q2,103,101,2023
+ketamine: anaesthesia or sedation,2023Q3,103,101,2023
+ketamine: anaesthesia or sedation,2023Q4,80,80,2023
+ketamine: anaesthesia or sedation,2024Q1,92,90,2024
+ketamine: anaesthesia or sedation,2024Q2,103,102,2024
+ketamine: anaesthesia or sedation,2024Q3,105,105,2024
+ketamine: anaesthesia or sedation,2024Q4,119,118,2024
+ketamine: anaesthesia or sedation,2025Q1,108,100,2025
+ketamine: anaesthesia or sedation,2025Q2,110,105,2025
+ketamine: anaesthesia or sedation,2025Q3,87,87,2025
+ketamine: anaesthesia or sedation,2025Q4,111,109,2025
+ketamine: anaesthesia or sedation,2026Q1,99,99,2026
+ketamine: anaesthesia or sedation,2026Q2,83,81,2026
+ketamine: other,2019Q1,30,30,2019
+ketamine: other,2019Q2,31,30,2019
+ketamine: other,2019Q3,36,35,2019
+ketamine: other,2019Q4,49,47,2019
+ketamine: other,2020Q1,26,26,2020
+ketamine: other,2020Q2,24,24,2020
+ketamine: other,2020Q3,32,29,2020
+ketamine: other,2020Q4,28,26,2020
+ketamine: other,2021Q1,37,36,2021
+ketamine: other,2021Q2,41,41,2021
+ketamine: other,2021Q3,44,43,2021
+ketamine: other,2021Q4,28,27,2021
+ketamine: other,2022Q1,33,33,2022
+ketamine: other,2022Q2,40,40,2022
+ketamine: other,2022Q3,22,21,2022
+ketamine: other,2022Q4,39,39,2022
+ketamine: other,2023Q1,52,51,2023
+ketamine: other,2023Q2,64,62,2023
+ketamine: other,2023Q3,65,64,2023
+ketamine: other,2023Q4,40,39,2023
+ketamine: other,2024Q1,34,32,2024
+ketamine: other,2024Q2,52,50,2024
+ketamine: other,2024Q3,78,76,2024
+ketamine: other,2024Q4,87,86,2024
+ketamine: other,2025Q1,93,88,2025
+ketamine: other,2025Q2,90,87,2025
+ketamine: other,2025Q3,101,100,2025
+ketamine: other,2025Q4,102,102,2025
+ketamine: other,2026Q1,115,113,2026
+ketamine: other,2026Q2,121,119,2026
+ketamine: pain,2019Q1,7,7,2019
+ketamine: pain,2019Q2,21,20,2019
+ketamine: pain,2019Q3,19,19,2019
+ketamine: pain,2019Q4,14,14,2019
+ketamine: pain,2020Q1,26,25,2020
+ketamine: pain,2020Q2,43,42,2020
+ketamine: pain,2020Q3,33,33,2020
+ketamine: pain,2020Q4,19,18,2020
+ketamine: pain,2021Q1,20,15,2021
+ketamine: pain,2021Q2,20,18,2021
+ketamine: pain,2021Q3,36,33,2021
+ketamine: pain,2021Q4,19,17,2021
+ketamine: pain,2022Q1,21,19,2022
+ketamine: pain,2022Q2,16,15,2022
+ketamine: pain,2022Q3,17,16,2022
+ketamine: pain,2022Q4,24,23,2022
+ketamine: pain,2023Q1,17,17,2023
+ketamine: pain,2023Q2,29,28,2023
+ketamine: pain,2023Q3,33,33,2023
+ketamine: pain,2023Q4,17,14,2023
+ketamine: pain,2024Q1,21,21,2024
+ketamine: pain,2024Q2,30,29,2024
+ketamine: pain,2024Q3,52,51,2024
+ketamine: pain,2024Q4,27,26,2024
+ketamine: pain,2025Q1,36,34,2025
+ketamine: pain,2025Q2,45,44,2025
+ketamine: pain,2025Q3,23,21,2025
+ketamine: pain,2025Q4,31,31,2025
+ketamine: pain,2026Q1,21,19,2026
+ketamine: pain,2026Q2,22,21,2026
+ketamine: psychiatric,2019Q1,6,6,2019
+ketamine: psychiatric,2019Q2,3,1,2019
+ketamine: psychiatric,2019Q3,1,1,2019
+ketamine: psychiatric,2019Q4,3,2,2019
+ketamine: psychiatric,2020Q1,6,5,2020
+ketamine: psychiatric,2020Q2,5,3,2020
+ketamine: psychiatric,2020Q3,6,5,2020
+ketamine: psychiatric,2020Q4,3,0,2020
+ketamine: psychiatric,2021Q1,6,6,2021
+ketamine: psychiatric,2021Q2,7,6,2021
+ketamine: psychiatric,2021Q3,4,3,2021
+ketamine: psychiatric,2021Q4,8,8,2021
+ketamine: psychiatric,2022Q1,6,6,2022
+ketamine: psychiatric,2022Q2,4,3,2022
+ketamine: psychiatric,2022Q3,5,4,2022
+ketamine: psychiatric,2022Q4,2,2,2022
+ketamine: psychiatric,2023Q1,10,6,2023
+ketamine: psychiatric,2023Q2,8,8,2023
+ketamine: psychiatric,2023Q3,17,17,2023
+ketamine: psychiatric,2023Q4,10,9,2023
+ketamine: psychiatric,2024Q1,8,7,2024
+ketamine: psychiatric,2024Q2,8,7,2024
+ketamine: psychiatric,2024Q3,12,12,2024
+ketamine: psychiatric,2024Q4,10,10,2024
+ketamine: psychiatric,2025Q1,16,15,2025
+ketamine: psychiatric,2025Q2,23,22,2025
+ketamine: psychiatric,2025Q3,24,22,2025
+ketamine: psychiatric,2025Q4,11,11,2025
+ketamine: psychiatric,2026Q1,3,3,2026
+ketamine: psychiatric,2026Q2,16,14,2026
+ketamine: unknown,2019Q1,47,40,2019
+ketamine: unknown,2019Q2,49,42,2019
+ketamine: unknown,2019Q3,25,21,2019
+ketamine: unknown,2019Q4,30,22,2019
+ketamine: unknown,2020Q1,57,56,2020
+ketamine: unknown,2020Q2,17,13,2020
+ketamine: unknown,2020Q3,53,49,2020
+ketamine: unknown,2020Q4,32,29,2020
+ketamine: unknown,2021Q1,61,55,2021
+ketamine: unknown,2021Q2,39,35,2021
+ketamine: unknown,2021Q3,77,75,2021
+ketamine: unknown,2021Q4,54,49,2021
+ketamine: unknown,2022Q1,44,42,2022
+ketamine: unknown,2022Q2,65,60,2022
+ketamine: unknown,2022Q3,35,32,2022
+ketamine: unknown,2022Q4,71,66,2022
+ketamine: unknown,2023Q1,113,110,2023
+ketamine: unknown,2023Q2,86,78,2023
+ketamine: unknown,2023Q3,58,52,2023
+ketamine: unknown,2023Q4,51,48,2023
+ketamine: unknown,2024Q1,60,56,2024
+ketamine: unknown,2024Q2,81,76,2024
+ketamine: unknown,2024Q3,65,60,2024
+ketamine: unknown,2024Q4,114,112,2024
+ketamine: unknown,2025Q1,116,106,2025
+ketamine: unknown,2025Q2,159,154,2025
+ketamine: unknown,2025Q3,133,126,2025
+ketamine: unknown,2025Q4,114,107,2025
+ketamine: unknown,2026Q1,114,101,2026
+ketamine: unknown,2026Q2,133,118,2026
+mirtazapine,2019Q1,790,691,2019
+mirtazapine,2019Q2,636,563,2019
+mirtazapine,2019Q3,889,805,2019
+mirtazapine,2019Q4,904,797,2019
+mirtazapine,2020Q1,857,810,2020
+mirtazapine,2020Q2,741,673,2020
+mirtazapine,2020Q3,806,757,2020
+mirtazapine,2020Q4,836,754,2020
+mirtazapine,2021Q1,841,794,2021
+mirtazapine,2021Q2,405,358,2021
+mirtazapine,2021Q3,583,542,2021
+mirtazapine,2021Q4,578,516,2021
+mirtazapine,2022Q1,654,605,2022
+mirtazapine,2022Q2,496,449,2022
+mirtazapine,2022Q3,588,544,2022
+mirtazapine,2022Q4,616,556,2022
+mirtazapine,2023Q1,695,678,2023
+mirtazapine,2023Q2,549,523,2023
+mirtazapine,2023Q3,638,623,2023
+mirtazapine,2023Q4,620,583,2023
+mirtazapine,2024Q1,710,679,2024
+mirtazapine,2024Q2,531,509,2024
+mirtazapine,2024Q3,603,573,2024
+mirtazapine,2024Q4,589,547,2024
+mirtazapine,2025Q1,689,663,2025
+mirtazapine,2025Q2,769,745,2025
+mirtazapine,2025Q3,701,688,2025
+mirtazapine,2025Q4,662,618,2025
+mirtazapine,2026Q1,679,647,2026
+mirtazapine,2026Q2,812,781,2026
+paroxetine,2019Q1,663,557,2019
+paroxetine,2019Q2,675,592,2019
+paroxetine,2019Q3,734,624,2019
+paroxetine,2019Q4,579,521,2019
+paroxetine,2020Q1,635,572,2020
+paroxetine,2020Q2,470,434,2020
+paroxetine,2020Q3,571,461,2020
+paroxetine,2020Q4,567,526,2020
+paroxetine,2021Q1,506,465,2021
+paroxetine,2021Q2,290,257,2021
+paroxetine,2021Q3,446,397,2021
+paroxetine,2021Q4,458,439,2021
+paroxetine,2022Q1,372,342,2022
+paroxetine,2022Q2,349,332,2022
+paroxetine,2022Q3,373,334,2022
+paroxetine,2022Q4,337,305,2022
+paroxetine,2023Q1,372,354,2023
+paroxetine,2023Q2,345,304,2023
+paroxetine,2023Q3,541,499,2023
+paroxetine,2023Q4,308,291,2023
+paroxetine,2024Q1,410,397,2024
+paroxetine,2024Q2,402,367,2024
+paroxetine,2024Q3,361,322,2024
+paroxetine,2024Q4,306,290,2024
+paroxetine,2025Q1,398,367,2025
+paroxetine,2025Q2,418,405,2025
+paroxetine,2025Q3,353,331,2025
+paroxetine,2025Q4,389,369,2025
+paroxetine,2026Q1,450,433,2026
+paroxetine,2026Q2,490,457,2026
+sertraline,2019Q1,1750,1435,2019
+sertraline,2019Q2,1802,1216,2019
+sertraline,2019Q3,1656,1385,2019
+sertraline,2019Q4,1975,1762,2019
+sertraline,2020Q1,2346,1788,2020
+sertraline,2020Q2,1255,1105,2020
+sertraline,2020Q3,1343,1169,2020
+sertraline,2020Q4,1456,1151,2020
+sertraline,2021Q1,1393,1144,2021
+sertraline,2021Q2,974,822,2021
+sertraline,2021Q3,1192,1017,2021
+sertraline,2021Q4,1304,1108,2021
+sertraline,2022Q1,1377,1151,2022
+sertraline,2022Q2,1190,945,2022
+sertraline,2022Q3,1166,960,2022
+sertraline,2022Q4,1213,1051,2022
+sertraline,2023Q1,1172,1059,2023
+sertraline,2023Q2,1074,898,2023
+sertraline,2023Q3,946,868,2023
+sertraline,2023Q4,943,870,2023
+sertraline,2024Q1,1150,1000,2024
+sertraline,2024Q2,1178,1103,2024
+sertraline,2024Q3,1170,1083,2024
+sertraline,2024Q4,1162,1107,2024
+sertraline,2025Q1,1617,1526,2025
+sertraline,2025Q2,1543,1437,2025
+sertraline,2025Q3,1455,1385,2025
+sertraline,2025Q4,1220,1128,2025
+sertraline,2026Q1,1574,1319,2026
+sertraline,2026Q2,1350,1256,2026
+trazodone,2019Q1,580,485,2019
+trazodone,2019Q2,409,278,2019
+trazodone,2019Q3,357,273,2019
+trazodone,2019Q4,345,276,2019
+trazodone,2020Q1,631,573,2020
+trazodone,2020Q2,365,308,2020
+trazodone,2020Q3,460,382,2020
+trazodone,2020Q4,469,398,2020
+trazodone,2021Q1,650,576,2021
+trazodone,2021Q2,380,298,2021
+trazodone,2021Q3,343,281,2021
+trazodone,2021Q4,305,254,2021
+trazodone,2022Q1,633,607,2022
+trazodone,2022Q2,296,253,2022
+trazodone,2022Q3,289,245,2022
+trazodone,2022Q4,317,273,2022
+trazodone,2023Q1,589,534,2023
+trazodone,2023Q2,398,335,2023
+trazodone,2023Q3,374,339,2023
+trazodone,2023Q4,326,304,2023
+trazodone,2024Q1,501,466,2024
+trazodone,2024Q2,415,355,2024
+trazodone,2024Q3,332,285,2024
+trazodone,2024Q4,362,312,2024
+trazodone,2025Q1,535,489,2025
+trazodone,2025Q2,530,482,2025
+trazodone,2025Q3,513,467,2025
+trazodone,2025Q4,453,409,2025
+trazodone,2026Q1,614,564,2026
+trazodone,2026Q2,554,487,2026
+venlafaxine,2019Q1,1389,1035,2019
+venlafaxine,2019Q2,1333,980,2019
+venlafaxine,2019Q3,1558,1267,2019
+venlafaxine,2019Q4,1316,1116,2019
+venlafaxine,2020Q1,1633,1439,2020
+venlafaxine,2020Q2,1004,772,2020
+venlafaxine,2020Q3,1138,930,2020
+venlafaxine,2020Q4,1112,928,2020
+venlafaxine,2021Q1,1108,977,2021
+venlafaxine,2021Q2,882,727,2021
+venlafaxine,2021Q3,1026,902,2021
+venlafaxine,2021Q4,1004,879,2021
+venlafaxine,2022Q1,1038,954,2022
+venlafaxine,2022Q2,906,697,2022
+venlafaxine,2022Q3,773,671,2022
+venlafaxine,2022Q4,726,675,2022
+venlafaxine,2023Q1,1048,964,2023
+venlafaxine,2023Q2,822,726,2023
+venlafaxine,2023Q3,846,784,2023
+venlafaxine,2023Q4,1037,995,2023
+venlafaxine,2024Q1,1019,970,2024
+venlafaxine,2024Q2,1036,937,2024
+venlafaxine,2024Q3,967,898,2024
+venlafaxine,2024Q4,843,792,2024
+venlafaxine,2025Q1,842,801,2025
+venlafaxine,2025Q2,1053,982,2025
+venlafaxine,2025Q3,1066,971,2025
+venlafaxine,2025Q4,921,870,2025
+venlafaxine,2026Q1,1002,933,2026
+venlafaxine,2026Q2,1049,992,2026
+vortioxetine,2019Q1,482,223,2019
+vortioxetine,2019Q2,371,184,2019
+vortioxetine,2019Q3,443,204,2019
+vortioxetine,2019Q4,452,224,2019
+vortioxetine,2020Q1,468,272,2020
+vortioxetine,2020Q2,251,156,2020
+vortioxetine,2020Q3,304,155,2020
+vortioxetine,2020Q4,322,180,2020
+vortioxetine,2021Q1,326,182,2021
+vortioxetine,2021Q2,312,171,2021
+vortioxetine,2021Q3,271,149,2021
+vortioxetine,2021Q4,283,178,2021
+vortioxetine,2022Q1,262,174,2022
+vortioxetine,2022Q2,273,174,2022
+vortioxetine,2022Q3,257,164,2022
+vortioxetine,2022Q4,244,164,2022
+vortioxetine,2023Q1,261,172,2023
+vortioxetine,2023Q2,234,150,2023
+vortioxetine,2023Q3,277,193,2023
+vortioxetine,2023Q4,224,152,2023
+vortioxetine,2024Q1,298,203,2024
+vortioxetine,2024Q2,271,173,2024
+vortioxetine,2024Q3,256,181,2024
+vortioxetine,2024Q4,249,187,2024
+vortioxetine,2025Q1,289,214,2025
+vortioxetine,2025Q2,279,214,2025
+vortioxetine,2025Q3,231,169,2025
+vortioxetine,2025Q4,244,179,2025
+vortioxetine,2026Q1,306,180,2026
+vortioxetine,2026Q2,235,185,2026

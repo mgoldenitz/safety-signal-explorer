@@ -1,0 +1,20 @@
+exposure,drug,group,is_comparator,is_subgroup
+bupropion,bupropion,Other antidepressant,True,False
+citalopram,citalopram,SSRI,True,False
+desvenlafaxine,desvenlafaxine,SNRI,True,False
+duloxetine,duloxetine,SNRI,True,False
+escitalopram,escitalopram,SSRI,True,False
+esketamine,esketamine,Study drug,False,False
+fluoxetine,fluoxetine,SSRI,True,False
+ketamine,ketamine,Study drug,False,False
+ketamine: anaesthesia or sedation,ketamine,Study drug,False,True
+ketamine: other,ketamine,Study drug,False,True
+ketamine: pain,ketamine,Study drug,False,True
+ketamine: psychiatric,ketamine,Study drug,False,True
+ketamine: unknown,ketamine,Study drug,False,True
+mirtazapine,mirtazapine,Other antidepressant,True,False
+paroxetine,paroxetine,SSRI,True,False
+sertraline,sertraline,SSRI,True,False
+trazodone,trazodone,Other antidepressant,True,False
+venlafaxine,venlafaxine,SNRI,True,False
+vortioxetine,vortioxetine,Other antidepressant,True,False

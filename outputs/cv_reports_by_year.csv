@@ -1,0 +1,146 @@
+exposure,year,reports
+bupropion,2019,521
+bupropion,2020,395
+bupropion,2021,302
+bupropion,2022,307
+bupropion,2023,357
+bupropion,2024,358
+bupropion,2025,193
+bupropion,2026,81
+citalopram,2019,374
+citalopram,2020,127
+citalopram,2021,119
+citalopram,2022,48
+citalopram,2023,56
+citalopram,2024,50
+citalopram,2025,44
+citalopram,2026,18
+desvenlafaxine,2019,51
+desvenlafaxine,2020,35
+desvenlafaxine,2021,27
+desvenlafaxine,2022,10
+desvenlafaxine,2023,14
+desvenlafaxine,2024,13
+desvenlafaxine,2025,7
+desvenlafaxine,2026,6
+duloxetine,2019,395
+duloxetine,2020,246
+duloxetine,2021,190
+duloxetine,2022,147
+duloxetine,2023,137
+duloxetine,2024,90
+duloxetine,2025,54
+duloxetine,2026,27
+escitalopram,2019,226
+escitalopram,2020,138
+escitalopram,2021,94
+escitalopram,2022,101
+escitalopram,2023,83
+escitalopram,2024,92
+escitalopram,2025,57
+escitalopram,2026,49
+esketamine,2020,4
+esketamine,2021,3
+esketamine,2022,3
+esketamine,2023,3
+esketamine,2024,2
+esketamine,2025,4
+fluoxetine,2019,139
+fluoxetine,2020,79
+fluoxetine,2021,64
+fluoxetine,2022,41
+fluoxetine,2023,67
+fluoxetine,2024,29
+fluoxetine,2025,23
+fluoxetine,2026,21
+ketamine,2019,39
+ketamine,2020,25
+ketamine,2021,26
+ketamine,2022,29
+ketamine,2023,18
+ketamine,2024,26
+ketamine,2025,18
+ketamine,2026,19
+ketamine: anaesthesia or sedation,2019,22
+ketamine: anaesthesia or sedation,2020,8
+ketamine: anaesthesia or sedation,2022,8
+ketamine: anaesthesia or sedation,2023,7
+ketamine: anaesthesia or sedation,2024,4
+ketamine: anaesthesia or sedation,2025,5
+ketamine: anaesthesia or sedation,2026,7
+ketamine: other,2019,10
+ketamine: other,2020,9
+ketamine: other,2021,7
+ketamine: other,2022,14
+ketamine: other,2023,4
+ketamine: other,2024,9
+ketamine: other,2025,8
+ketamine: other,2026,8
+ketamine: pain,2019,6
+ketamine: pain,2020,7
+ketamine: pain,2021,6
+ketamine: pain,2022,2
+ketamine: pain,2023,1
+ketamine: pain,2024,4
+ketamine: pain,2025,6
+ketamine: pain,2026,4
+ketamine: psychiatric,2021,1
+ketamine: psychiatric,2022,3
+ketamine: psychiatric,2023,2
+ketamine: psychiatric,2024,4
+ketamine: unknown,2019,4
+ketamine: unknown,2020,2
+ketamine: unknown,2021,12
+ketamine: unknown,2022,4
+ketamine: unknown,2023,4
+ketamine: unknown,2024,6
+ketamine: unknown,2025,5
+ketamine: unknown,2026,2
+mirtazapine,2019,102
+mirtazapine,2020,59
+mirtazapine,2021,43
+mirtazapine,2022,30
+mirtazapine,2023,33
+mirtazapine,2024,40
+mirtazapine,2025,29
+mirtazapine,2026,12
+paroxetine,2019,136
+paroxetine,2020,47
+paroxetine,2021,38
+paroxetine,2022,34
+paroxetine,2023,18
+paroxetine,2024,17
+paroxetine,2025,17
+paroxetine,2026,5
+sertraline,2019,301
+sertraline,2020,190
+sertraline,2021,142
+sertraline,2022,112
+sertraline,2023,89
+sertraline,2024,109
+sertraline,2025,84
+sertraline,2026,29
+trazodone,2019,132
+trazodone,2020,64
+trazodone,2021,43
+trazodone,2022,37
+trazodone,2023,30
+trazodone,2024,55
+trazodone,2025,43
+trazodone,2026,19
+venlafaxine,2019,617
+venlafaxine,2020,315
+venlafaxine,2021,201
+venlafaxine,2022,157
+venlafaxine,2023,116
+venlafaxine,2024,81
+venlafaxine,2025,62
+venlafaxine,2026,38
+vortioxetine,2019,78
+vortioxetine,2020,51
+vortioxetine,2021,34
+vortioxetine,2022,18
+vortioxetine,2023,29
+vortioxetine,2024,35
+vortioxetine,2025,25
+vortioxetine,2026,15

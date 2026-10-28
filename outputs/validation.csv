@@ -1,0 +1,13 @@
+exposure,reaction,expected_signal,flagged,passed,reports,best_term,ror,ror_lo,ror_hi,source
+esketamine,Dissociation,True,True,True,3691,Dissociation,1819.200377652375,1710.063855094648,1935.3020088640908,Spravato label: boxed warning
+esketamine,Sedation / Somnolence,True,True,True,2888,Sedation,180.6023704564965,172.56910991618847,189.0095871175716,Spravato label: boxed warning
+esketamine,Blood pressure increased,True,True,True,568,Blood pressure increased,4.561128564881069,4.194204699490806,4.960152228120797,Spravato label: warnings
+esketamine,Dizziness,True,True,True,655,Dizziness,1.7724561100776963,1.6392580574499889,1.9164771817799064,Spravato label: common adverse reaction
+esketamine,Vertigo,True,True,True,103,Vertigo,2.360875513214017,1.9444435241368263,2.8664927110021514,Spravato label: common adverse reaction
+esketamine,Feeling drunk,True,True,True,75,Feeling drunk,17.46379354325183,13.874823924934379,21.981113891704165,Spravato label: common adverse reaction
+esketamine,Suicidal ideation,True,True,True,1437,Suicidal ideation,26.019768370679866,24.63021827504533,27.48771198466314,Spravato label: boxed warning (also confounded by indication)
+ketamine,Cystitis / Cystitis interstitial / Cystitis noninfective / Cystitis haemorrhagic / Cystitis ulcerative,True,True,True,163,Cystitis ulcerative,753.4916422900126,304.0278128777943,1867.426698981356,Ketamine-induced uropathy
+esketamine,Cataract,False,False,True,17,Cataract,0.31841359990123924,0.19787400159976717,0.5123827273030989,Negative control
+esketamine,Gout,False,False,True,0,,,,,Negative control
+esketamine,Rotator cuff syndrome,False,False,True,5,Rotator cuff syndrome,0.5587078777674584,0.2324226091899139,1.3430470201130646,Negative control
+esketamine,Osteoarthritis,False,False,True,3,Osteoarthritis,0.08562394773543,0.0276101439711958,0.2655350306556957,Negative control
