@@ -63,8 +63,14 @@ COLUMNS = {
 }
 
 
+# File names in the extract differ slightly from the Data Structure page
+# (the 2026-06-30 extract has report_links.txt and drug_products.txt).
+ALIASES = {"report_links_lx": ["report_links_lx", "report_links"]}
+
+
 def find_file(raw, name):
-    hits = [p for p in Path(raw).rglob("*") if p.is_file() and p.stem.lower() == name]
+    names = ALIASES.get(name, [name])
+    hits = [p for p in Path(raw).rglob("*") if p.is_file() and p.stem.lower() in names]
     if not hits:
         raise FileNotFoundError(f"{name}.txt not found under {raw}")
     return hits[0]
@@ -91,14 +97,26 @@ def read_cv(raw, name, usecols):
     return df[usecols].apply(lambda s: s.str.strip())
 
 
+def parse_date(s):
+    """Dates look like 05-JUN-73. Two-digit years above the current year are 1900s."""
+    d = pd.to_datetime(s, format="%d-%b-%y", errors="coerce")
+    other = d.isna() & s.notna()
+    d[other] = pd.to_datetime(s[other], errors="coerce", format="mixed")
+    future = d.dt.year > pd.Timestamp.today().year
+    d[future] = d[future] - pd.DateOffset(years=100)
+    return d
+
+
 def load(raw):
-    rep = read_cv(raw, "reports", ["REPORT_ID", "REPORT_NO", "DATRECEIVED", "DATINTRECEIVED",
+    rep = read_cv(raw, "reports", ["REPORT_ID", "REPORT_NO", "VERSION_NO", "DATRECEIVED", "DATINTRECEIVED",
                                    "GENDER_ENG", "AGE_Y", "SERIOUSNESS_ENG", "DEATH"])
-    rep["received"] = pd.to_datetime(rep["DATINTRECEIVED"].fillna(rep["DATRECEIVED"]),
-                                     errors="coerce", format="mixed")
+    rep["received"] = parse_date(rep["DATINTRECEIVED"].fillna(rep["DATRECEIVED"]))
     parsed = rep["received"].notna().mean()
     print(f"Reports: {len(rep):,} rows, received date parsed for {parsed:.1%}")
     rep = rep[rep["received"] >= START_DATE].copy()
+    # Keep the latest version if a report number appears more than once.
+    rep = (rep.assign(v=pd.to_numeric(rep["VERSION_NO"], errors="coerce"))
+              .sort_values("v").drop_duplicates("REPORT_NO", keep="last").drop(columns="v"))
 
     links = read_cv(raw, "report_links_lx", ["REPORT_ID", "RECORD_TYPE_ENG", "REPORT_LINK_NO"])
     dup = links[links["RECORD_TYPE_ENG"].str.upper().str.startswith("DUPLICATE", na=False)]

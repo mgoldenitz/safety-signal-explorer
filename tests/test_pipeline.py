@@ -234,15 +234,15 @@ def test_canada_vigilance(tmp_path):
         return [d.get(c, "") for c in C[name]]
 
     reports = [
-        {"REPORT_ID": "1", "REPORT_NO": "000000001", "DATINTRECEIVED": "2020-05-01"},
+        {"REPORT_ID": "1", "REPORT_NO": "000000001", "DATINTRECEIVED": "01-MAY-20"},
         {"REPORT_ID": "2", "REPORT_NO": "000000002", "DATINTRECEIVED": "2021-01-01"},
         {"REPORT_ID": "3", "REPORT_NO": "000000003", "DATINTRECEIVED": "2021-02-01"},  # duplicate of 2
         {"REPORT_ID": "4", "REPORT_NO": "000000004", "DATINTRECEIVED": "2022-01-01"},
-        {"REPORT_ID": "5", "REPORT_NO": "000000005", "DATINTRECEIVED": "2015-01-01"},  # before 2019
+        {"REPORT_ID": "5", "REPORT_NO": "000000005", "DATINTRECEIVED": "05-JUN-73"},  # before 2019
         {"REPORT_ID": "6", "REPORT_NO": "000000006", "DATINTRECEIVED": "2023-01-01"},
     ]
-    cv_file(raw / "Reports.txt", C["reports"], [pad("reports", r) for r in reports])
-    cv_file(raw / "Report_Links_LX.txt", C["report_links_lx"],
+    cv_file(raw / "reports.txt", C["reports"], [pad("reports", r) for r in reports], header=False)
+    cv_file(raw / "report_links.txt", C["report_links_lx"],
             [pad("report_links_lx", {"REPORT_LINK_ID": "1", "REPORT_ID": "2", "RECORD_TYPE_ENG": "Duplicate",
                                      "REPORT_LINK_NO": "000000003"})], header=False)
     drugs = [("10", "1", "100", "SPRAVATO", "Suspect"), ("11", "2", "100", "SPRAVATO", "Suspect"),
@@ -275,3 +275,9 @@ def test_canada_vigilance(tmp_path):
     assert (r.a, r.b, r.c, r.d) == (2, 0, 0, 1)
     soc = cv.pt_soc(rx).set_index("pt_key")["soc"]
     assert soc["NAUSEA"] == "Gastrointestinal disorders"
+
+
+def test_cv_dates():
+    cv = load("07_canada_vigilance")
+    d = cv.parse_date(pd.Series(["05-JUN-73", "01-MAY-20", None]))
+    assert d.iloc[0].year == 1973 and d.iloc[1].year == 2020 and pd.isna(d.iloc[2])
