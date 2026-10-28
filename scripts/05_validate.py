@@ -31,8 +31,8 @@ CONTROLS = [
     ("ketamine", ["Cystitis", "Cystitis interstitial", "Cystitis noninfective",
                   "Cystitis haemorrhagic", "Cystitis ulcerative"], True, "Ketamine-induced uropathy"),
     ("esketamine", ["Cataract"], False, "Negative control"),
-    ("esketamine", ["Ingrowing nail"], False, "Negative control"),
-    ("esketamine", ["Tinea pedis"], False, "Negative control"),
+    ("esketamine", ["Gout"], False, "Negative control"),
+    ("esketamine", ["Rotator cuff syndrome"], False, "Negative control"),
     ("esketamine", ["Osteoarthritis"], False, "Negative control"),
 ]
 
