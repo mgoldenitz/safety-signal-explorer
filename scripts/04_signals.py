@@ -24,7 +24,7 @@ import argparse
 import numpy as np
 import pandas as pd
 
-from common import COMPARATORS, OUTPUTS, REPO, connect
+from common import COMPARATORS, OUTPUTS, REPO, connect, term_category
 
 
 def run_counts_sql(con):
@@ -101,9 +101,10 @@ def build(con):
     cols = ["exposure", "background", "pt_id", "a", "b", "c", "d"]
     sig = stats(pd.concat([full[cols], comp[cols]], ignore_index=True))
     sig = sig.merge(terms, on="pt_id")
+    sig["term_category"] = sig["pt"].map(term_category)
     for k in "abcd":
         sig[k] = sig[k].astype(int)
-    order = ["exposure", "background", "pt", "a", "b", "c", "d", "expected", "prr", "prr_lo",
+    order = ["exposure", "background", "pt", "term_category", "a", "b", "c", "d", "expected", "prr", "prr_lo",
              "prr_hi", "chi2", "ror", "ror_lo", "ror_hi", "ic", "ic025",
              "signal_evans", "signal_ror", "signal_ic"]
     return sig[order].sort_values(["exposure", "background", "a"], ascending=[True, True, False])
@@ -119,7 +120,7 @@ def main():
     sig.to_sql("signals", con, if_exists="replace", index=False)
     con.close()
     sig.to_csv(args.out, index=False)
-    flagged = sig[sig["signal_ror"]].groupby(["exposure", "background"]).size()
+    flagged = sig[sig["signal_ror"]].groupby(["exposure", "background", "term_category"]).size().unstack(fill_value=0)
     print(f"{len(sig):,} drug-reaction pairs written to {args.out}")
     print("Pairs flagged by ROR (a >= 3, lower 95% bound > 1):")
     print(flagged.to_string())

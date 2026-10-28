@@ -100,3 +100,38 @@ def connect(path=None):
     con.execute("PRAGMA journal_mode=WAL")
     con.execute("PRAGMA synchronous=NORMAL")
     return con
+
+
+# FAERS has no MedDRA hierarchy, so reaction terms that describe a product,
+# device, use or administrative event rather than a clinical reaction are
+# labelled by keyword. The dashboard shows clinical terms by default.
+_NON_CLINICAL = [
+    ("Lack of effect", ["DRUG INEFFECTIVE", "THERAPEUTIC PRODUCT EFFECT", "THERAPEUTIC RESPONSE",
+                        "TREATMENT FAILURE", "LACK OF EFFICACY", "NON-RESPONDER",
+                        "EFFECT LESS THAN EXPECTED", "EFFECT INCOMPLETE", "LACK OF CONCOMITANT"]),
+    ("Product, device or use", ["DEVICE", "PRODUCT", "MEDICATION ERROR", "OFF LABEL",
+                                "WRONG ", "INCORRECT ", "UNDERDOSE", "NONCOMPLIANCE",
+                                "NON-COMPLIANCE", "INTERCEPTED", "EXPOSURE ", "EXPOSURE VIA",
+                                "INAPPROPRIATE SCHEDULE", "EXTRA DOSE", "DOSE OMISSION",
+                                "PRESCRIBED", "DRUG DOSE", "DRUG ADMINISTRATION",
+                                "CIRCUMSTANCE OR INFORMATION", "INSURANCE", "LABELLED DRUG",
+                                "UNAPPROVED INDICATION", "DELIVERY SYSTEM", "MONITORING PROCEDURE",
+                                "ISSUE", "TITRATION ERROR", "WITHOUT A PRESCRIPTION", " USER "]),
+    ("Procedure or administrative", ["HOSPITALISATION", "SURGERY", "OPERATION",
+                                     "PHYSICAL EXAMINATION", "NO ADVERSE EVENT",
+                                     "ADVERSE EVENT", "ADVERSE DRUG REACTION", "THERAPY CESSATION",
+                                     "THERAPY INTERRUPTED", "THERAPY CHANGE", "TREATMENT DELAYED",
+                                     "DEATH", "PROCEDURE ", "THERAPY ", "CHEMOTHERAPY", "RADIOTHERAPY"]),
+]
+_CLINICAL_EXCEPTIONS = ["OVERDOSE", "SUDDEN DEATH", "SUDDEN CARDIAC DEATH", "BRAIN DEATH"]
+
+
+def term_category(pt):
+    """Clinical, or one of the non-clinical groups above."""
+    t = str(pt).upper() + " "
+    if any(x in t for x in _CLINICAL_EXCEPTIONS):
+        return "Clinical"
+    for label, keys in _NON_CLINICAL:
+        if any(k in t for k in keys):
+            return label
+    return "Clinical"

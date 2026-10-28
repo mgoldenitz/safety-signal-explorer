@@ -209,3 +209,11 @@ def test_validate_and_export_run(db, tmp_path, monkeypatch):
     assert esk == {"2019Q1": 1, "2019Q2": 2}
     demo = pd.read_csv(tmp_path / "demographics.csv")
     assert demo.loc[demo["exposure"] == "ketamine", "age_band"].tolist().count("30 to 44") == 1
+
+
+def test_term_category():
+    assert common.term_category("Dissociation") == "Clinical"
+    assert common.term_category("Device issue") == "Product, device or use"
+    assert common.term_category("Intentional overdose") == "Clinical"
+    assert common.term_category("Hospitalisation") == "Procedure or administrative"
+    assert common.term_category("Drug ineffective") == "Lack of effect"
