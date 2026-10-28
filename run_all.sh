@@ -10,3 +10,8 @@ cd "$(dirname "$0")"
 "$PY" scripts/04_signals.py
 "$PY" scripts/05_validate.py || echo "Validation reported a problem; read the table above before going on."
 "$PY" scripts/06_export.py
+if [ -d "${SSX_DATA:-$HOME/ssx_data}/raw/canada_vigilance" ]; then
+  "$PY" scripts/07_canada_vigilance.py
+else
+  echo "No Canada Vigilance extract found; skipping 07."
+fi

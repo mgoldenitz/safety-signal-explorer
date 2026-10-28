@@ -21,47 +21,15 @@ Writes the signals table to the database and outputs/signals.csv.
 
 import argparse
 
-import numpy as np
 import pandas as pd
 
-from common import COMPARATORS, OUTPUTS, REPO, connect, term_category
+from common import COMPARATORS, OUTPUTS, REPO, connect, stats, term_category
 
 
 def run_counts_sql(con):
     sql = (REPO / "sql" / "04_signal_counts.sql").read_text()
     names = ", ".join(f"'{d}'" for d in COMPARATORS)
     con.executescript(sql.replace(":comparators", names))
-
-
-def stats(df):
-    """Add PRR, ROR, IC and signal flags to a frame with columns a, b, c, d."""
-    a, b, c, d = (df[k].astype(float) for k in "abcd")
-    n = a + b + c + d
-    with np.errstate(divide="ignore", invalid="ignore"):
-        prr = (a / (a + b)) / (c / (c + d))
-        se_prr = np.sqrt(1 / a - 1 / (a + b) + 1 / c - 1 / (c + d))
-        ror = (a * d) / (b * c)
-        se_ror = np.sqrt(1 / a + 1 / b + 1 / c + 1 / d)
-        chi2 = n * (np.abs(a * d - b * c) - n / 2).clip(lower=0) ** 2 / (
-            (a + b) * (c + d) * (a + c) * (b + d))
-        expected = (a + b) * (a + c) / n
-        ic = np.log2((a + 0.5) / (expected + 0.5))
-        ic025 = ic - 3.3 * (a + 0.5) ** -0.5 - 2 * (a + 0.5) ** -1.5
-    out = df.copy()
-    out["expected"] = expected
-    out["prr"] = prr
-    out["prr_lo"] = np.exp(np.log(prr) - 1.96 * se_prr)
-    out["prr_hi"] = np.exp(np.log(prr) + 1.96 * se_prr)
-    out["chi2"] = chi2
-    out["ror"] = ror
-    out["ror_lo"] = np.exp(np.log(ror) - 1.96 * se_ror)
-    out["ror_hi"] = np.exp(np.log(ror) + 1.96 * se_ror)
-    out["ic"] = ic
-    out["ic025"] = ic025
-    out["signal_evans"] = (a >= 3) & (prr >= 2) & (chi2 >= 4)
-    out["signal_ror"] = (a >= 3) & (out["ror_lo"] > 1)
-    out["signal_ic"] = ic025 > 0
-    return out.replace([np.inf, -np.inf], np.nan)
 
 
 def build(con):

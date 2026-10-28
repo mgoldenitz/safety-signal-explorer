@@ -184,9 +184,8 @@ def test_two_by_two_comparators(db):
 
 
 def test_stats_known_values():
-    sig = load("04_signals")
     df = pd.DataFrame({"a": [20], "b": [80], "c": [100], "d": [9800]})
-    out = sig.stats(df).iloc[0]
+    out = common.stats(df).iloc[0]
     assert math.isclose(out.prr, 0.2 / (100 / 9900))
     assert math.isclose(out.ror, (20 * 9800) / (80 * 100))
     assert out.ror_lo < out.ror < out.ror_hi
@@ -217,3 +216,62 @@ def test_term_category():
     assert common.term_category("Intentional overdose") == "Clinical"
     assert common.term_category("Hospitalisation") == "Procedure or administrative"
     assert common.term_category("Drug ineffective") == "Lack of effect"
+
+
+def cv_file(path, cols, rows, header=True):
+    q = lambda v: f'"{v}"'
+    lines = (["$".join(q(c) for c in cols)] if header else []) + ["$".join(q(v) for v in r) for r in rows]
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def test_canada_vigilance(tmp_path):
+    cv = load("07_canada_vigilance")
+    C = cv.COLUMNS
+    raw = tmp_path / "cv"
+    raw.mkdir()
+
+    def pad(name, d):
+        return [d.get(c, "") for c in C[name]]
+
+    reports = [
+        {"REPORT_ID": "1", "REPORT_NO": "000000001", "DATINTRECEIVED": "2020-05-01"},
+        {"REPORT_ID": "2", "REPORT_NO": "000000002", "DATINTRECEIVED": "2021-01-01"},
+        {"REPORT_ID": "3", "REPORT_NO": "000000003", "DATINTRECEIVED": "2021-02-01"},  # duplicate of 2
+        {"REPORT_ID": "4", "REPORT_NO": "000000004", "DATINTRECEIVED": "2022-01-01"},
+        {"REPORT_ID": "5", "REPORT_NO": "000000005", "DATINTRECEIVED": "2015-01-01"},  # before 2019
+        {"REPORT_ID": "6", "REPORT_NO": "000000006", "DATINTRECEIVED": "2023-01-01"},
+    ]
+    cv_file(raw / "Reports.txt", C["reports"], [pad("reports", r) for r in reports])
+    cv_file(raw / "Report_Links_LX.txt", C["report_links_lx"],
+            [pad("report_links_lx", {"REPORT_LINK_ID": "1", "REPORT_ID": "2", "RECORD_TYPE_ENG": "Duplicate",
+                                     "REPORT_LINK_NO": "000000003"})], header=False)
+    drugs = [("10", "1", "100", "SPRAVATO", "Suspect"), ("11", "2", "100", "SPRAVATO", "Suspect"),
+             ("12", "3", "100", "SPRAVATO", "Suspect"), ("13", "4", "200", "ZOLOFT", "Suspect"),
+             ("14", "4", "100", "SPRAVATO", "Concomitant"), ("15", "5", "100", "SPRAVATO", "Suspect"),
+             ("16", "6", "300", "ASPIRIN", "Suspect")]
+    cv_file(raw / "Report_Drug.txt", C["report_drug"],
+            [pad("report_drug", dict(zip(["REPORT_DRUG_ID", "REPORT_ID", "DRUG_PRODUCT_ID", "DRUGNAME",
+                                          "DRUGINVOLV_ENG"], d))) for d in drugs])
+    cv_file(raw / "Drug_Product_Ingredients.txt", C["drug_product_ingredients"],
+            [pad("drug_product_ingredients", {"DRUG_PRODUCT_INGREDIENT_ID": "1", "DRUG_PRODUCT_ID": "100",
+                                              "ACTIVE_INGREDIENT_NAME": "ESKETAMINE HYDROCHLORIDE"}),
+             pad("drug_product_ingredients", {"DRUG_PRODUCT_INGREDIENT_ID": "2", "DRUG_PRODUCT_ID": "200",
+                                              "ACTIVE_INGREDIENT_NAME": "SERTRALINE HYDROCHLORIDE"})])
+    reac = [("1", "Dissociation", "Psychiatric disorders"), ("2", "Dissociation", "Psychiatric disorders"),
+            ("3", "Dissociation", "Psychiatric disorders"), ("4", "Nausea", "Gastrointestinal disorders"),
+            ("6", "Dissociation", "Psychiatric disorders"), ("6", "Nausea", "Gastrointestinal disorders")]
+    cv_file(raw / "Reactions.txt", C["reactions"],
+            [pad("reactions", {"REACTION_ID": str(i), "REPORT_ID": r, "PT_NAME_ENG": p, "SOC_NAME_ENG": s})
+             for i, (r, p, s) in enumerate(reac)])
+    cv_file(raw / "Report_Drug_Indication.txt", C["report_drug_indication"], [])
+
+    rep, expo, rx = cv.load(raw)
+    assert set(rep["REPORT_ID"]) == {"1", "2", "4", "6"}
+    assert set(expo.loc[expo["exposure"] == "esketamine", "REPORT_ID"]) == {"1", "2"}
+    sig = cv.signals(rep, expo, rx)
+    r = sig[(sig.exposure == "esketamine") & (sig.background == "All Canada Vigilance") & (sig.pt == "Dissociation")].iloc[0]
+    assert (r.a, r.b, r.c, r.d) == (2, 0, 1, 1)
+    r = sig[(sig.exposure == "esketamine") & (sig.background == "Other antidepressants") & (sig.pt == "Dissociation")].iloc[0]
+    assert (r.a, r.b, r.c, r.d) == (2, 0, 0, 1)
+    soc = cv.pt_soc(rx).set_index("pt_key")["soc"]
+    assert soc["NAUSEA"] == "Gastrointestinal disorders"
