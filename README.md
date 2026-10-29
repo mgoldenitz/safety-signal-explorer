@@ -64,11 +64,11 @@ Checked against all of FAERS before any result was read.
 | Esketamine: feeling drunk | Signal | 75 | 17.5 (13.9 to 22.0) | Flagged |
 | Ketamine: cystitis terms | Signal | 163 | 753 (304 to 1,867) | Flagged |
 | Esketamine: cataract | No signal | 17 | 0.32 (0.20 to 0.51) | Not flagged |
+| Esketamine: diabetes mellitus | No signal | 16 | 0.31 (0.19 to 0.50) | Not flagged |
+| Esketamine: cholelithiasis | No signal | 13 | 0.63 (0.37 to 1.09) | Not flagged |
 | Esketamine: rotator cuff syndrome | No signal | 5 | 0.56 (0.23 to 1.34) | Not flagged |
-| Esketamine: osteoarthritis | No signal | 3 | 0.09 (0.03 to 0.27) | Not flagged |
-| Esketamine: gout | No signal | 0 | none | Not flagged |
 
-The first seven are on the Spravato label; ketamine bladder damage is well documented. Gout had no esketamine reports, so it tests nothing.
+The first seven are on the Spravato label; ketamine bladder damage is well documented. The first run used gout and osteoarthritis as negative controls, but gout had no esketamine reports and osteoarthritis had 3, so they tested little. They were replaced with diabetes mellitus and cholelithiasis after the run, chosen as unrelated conditions with at least 10 esketamine reports. Because the replacements were picked after the results existed, they are a weaker check than controls fixed in advance.
 
 ## Results
 
@@ -90,11 +90,35 @@ Esketamine against the 12 comparator antidepressants: 93 clinical terms flagged,
 | Blood pressure increased | Investigations | 568 | 3.6 (3.2 to 3.9) |
 | Suicidal ideation | Psychiatric | 1,437 | 2.7 (2.5 to 2.8) |
 
-Most of the top terms are on the label or follow from how the drug is given: a nasal spray, with blood pressure and oxygen checks in the clinic. Interstitial cystitis matches the bladder damage known for ketamine. Intracranial aneurysm (11 reports) connects to the blood pressure rise: the Spravato label lists aneurysmal vascular disease as a contraindication. Eleven reports cannot show more than that. Anaphylactic shock and malignant neoplasm are the least expected; both need a look at the individual reports before anything is said about them.
+Most of the top terms are on the label or follow from how the drug is given: a nasal spray, with blood pressure and oxygen checks in the clinic. Interstitial cystitis matches the bladder damage known for ketamine. Intracranial aneurysm (11 reports) connects to the blood pressure rise: the Spravato label lists aneurysmal vascular disease (including intracranial vessels), arteriovenous malformation and a history of intracerebral haemorrhage as contraindications. Eleven reports cannot show more than that. Anaphylactic shock and malignant neoplasm are the least expected; both need a look at the individual reports before anything is said about them.
 
 Ketamine with a psychiatric indication (251 reports) against the comparators: dissociation (28 reports, ROR 59), suicidal ideation (21, 2.8), mania (10, 7.3) and reversible cerebral vasoconstriction syndrome (10, 12.5). Ketamine given for anaesthesia or sedation is dominated by perioperative reactions, led by anaphylactic shock (505 reports, ROR 212), which most likely reflects other drugs given during surgery rather than ketamine.
 
 The 2025 study of esketamine in FAERS (European Journal of Clinical Pharmacology, 82(1)) used 7,790 reports to the end of 2024 and found 173 ROR signals. This project has 9,945 esketamine reports to the end of 2024 and 249 ROR signals over the full period, using a different de-duplication rule, suspect roles and end date.
+
+## Dashboard
+
+The Power BI report is [`powerbi/SafetySignalExplorer.pbix`](powerbi/SafetySignalExplorer.pbix), with a static copy of all five pages in [`powerbi/SafetySignalExplorer.pdf`](powerbi/SafetySignalExplorer.pdf). It reads the CSVs in `outputs/`.
+
+Overview: report counts, FAERS reports per quarter for esketamine, ketamine and sertraline, and esketamine reports by age band and sex.
+
+![Overview](images/overview.png)
+
+Signal finder: pick a drug, a comparison group and a term type. A scatter plot shows each reaction term by report count and lower 95% bound of the ROR, and a table lists the signals with ROR, PRR and the Evans flag.
+
+![Signal finder](images/signal-finder.png)
+
+Drug comparison: number of clinical ROR signals by organ class for esketamine, ketamine and the 12 comparators, in two matrices. Drill through on a cell to see the terms behind it.
+
+![Drug comparison](images/drug-comparison.png)
+
+Canada Vigilance: clinical ROR signals per drug in FAERS and Canada Vigilance, and the top 15 FAERS reactions for a selected drug with the Canadian counts beside them. Canada Vigilance has 19 esketamine reports, too few for this analysis, so the page covers ketamine and the comparators.
+
+![Canada Vigilance](images/canada-vigilance.png)
+
+Methods: data, the 2 x 2 method, limitations and the validation table.
+
+![Methods](images/methods.png)
 
 ## Limitations
 
@@ -129,6 +153,7 @@ bash run_all.sh ~/brainenv/bin/python
 
 ## Sources
 
+- Janssen, SPRAVATO (esketamine) nasal spray prescribing information, section 4, Contraindications. FDA label, revised 2/2020: https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/211243s003lbl.pdf. The contraindications are unchanged in the Medication Guide revised 09/2026: https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/211243s026lbl.pdf.
 - FDA, FAERS quarterly data extract files.
 - Health Canada, Canada Vigilance Adverse Reaction Online Database data extract and "Data Structure" page.
 - The Reporting of a Disproportionality Analysis for Drug Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Development and Statement. Drug Safety 2024;47(6):575 to 584.
