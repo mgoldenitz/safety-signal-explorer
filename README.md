@@ -96,6 +96,14 @@ Ketamine with a psychiatric indication (251 reports) against the comparators: di
 
 The 2025 study of esketamine in FAERS (European Journal of Clinical Pharmacology, 82(1)) used 7,790 reports to the end of 2024 and found 173 ROR signals. This project has 9,945 esketamine reports to the end of 2024 and 249 ROR signals over the full period, using a different de-duplication rule, suspect roles and end date.
 
+### Two checks on the esketamine reports
+
+`scripts/08_esketamine_checks.py` re-reads the route, sender and reporter fields for every esketamine report from the raw FAERS files.
+
+Route. Of 18,068 esketamine reports, 17,917 (99.2%) name Spravato or give a nasal route, 74 give another route (mostly intravenous) and 77 give a generic name with no route. Rerunning the analysis on the Spravato or nasal reports alone keeps 246 of the 249 ROR signals, and every positive and negative control gives the same result. The injectable product does not change the findings.
+
+The 2025 Q2 jump. Johnson & Johnson sent 2,411 of the 2,444 reports that quarter (98.7%), but it sends 96% to 98% of esketamine reports in every quarter since late 2019, so the jump is not a new sender. 2,364 of the reports (97%) were new cases first received that quarter, not follow-ups of old ones. Most came from health professionals (1,605) and physicians (595), and 2,159 were expedited reports. Two terms account for most of the rise: dissociation (1,152 reports, against 92 a quarter in 2024) and sedation (952, against 58). Both are boxed warnings on the Spravato label, which clinics monitor for two hours after every dose. FAERS does not record why the reports rose. Leaving 2025 Q2 out keeps 243 of the 249 signals and every control result; the RORs for dissociation (1,819 to 1,375) and sedation (181 to 128) fall but stay far above 1. The jump inflates the size of the two strongest signals and does not create them.
+
 ## Dashboard
 
 The Power BI report is [`powerbi/SafetySignalExplorer.pbix`](powerbi/SafetySignalExplorer.pbix), with a static copy of all five pages in [`powerbi/SafetySignalExplorer.pdf`](powerbi/SafetySignalExplorer.pdf). It reads the CSVs in `outputs/`.
@@ -125,8 +133,7 @@ Methods: data, the 2 x 2 method, limitations and the validation table.
 - Spontaneous reports show association, not incidence or causation. There is no count of people exposed to each drug.
 - Confounding by indication remains for psychiatric terms, even against other antidepressants, because treatment-resistant depression is more severe than the depression most comparators treat.
 - Spravato is given under supervision in certified clinics with required monitoring, which likely raises its reporting.
-- Esketamine reports jumped from about 1,000 a quarter to 2,444 in 2025 Q2. A burst of reports from one source can create or inflate signals.
-- Esketamine is also used intravenously as an anaesthetic outside North America, and FAERS includes foreign reports. Of the esketamine report versions loaded, 18,739 name Spravato and about 1,010 give only a generic name ("ESKETAMINE", "ESKETAMINE HYDROCHLORIDE"); 2 name Ketanest, an injectable brand. The generic-name reports could be either product, so a few perioperative reports may not be Spravato. Splitting by route is the next step.
+- Esketamine reports jumped from about 1,000 a quarter to 2,444 in 2025 Q2, mostly dissociation and sedation reports from Johnson & Johnson. Removing that quarter does not change which reactions are flagged (see the checks above), but the cause of the jump is not known.
 - The term categories and the organ-class lookup are approximations of the MedDRA hierarchy, which needs a licence.
 - 466 of 51,168 FAERS drug-reaction pairs (0.9%) have no ROR because no report in the comparison group has that reaction (c = 0).
 
@@ -135,7 +142,7 @@ Methods: data, the 2 x 2 method, limitations and the validation table.
 ```bash
 cd /mnt/c/Users/mgold/OneDrive/Desktop/Career/safety-signal-explorer
 ~/brainenv/bin/python -m pip install -r requirements.txt
-~/brainenv/bin/python -m pytest -q tests          # 11 tests on hand-made files
+~/brainenv/bin/python -m pytest -q tests          # 14 tests on hand-made files
 bash run_all.sh ~/brainenv/bin/python
 ```
 
@@ -150,6 +157,7 @@ bash run_all.sh ~/brainenv/bin/python
 | `05_validate.py` | Checks the positive and negative controls |
 | `06_export.py` | Writes tables for Power BI |
 | `07_canada_vigilance.py` | Loads Canada Vigilance, computes the same signals and the organ-class lookup |
+| `08_esketamine_checks.py` | Splits esketamine reports by route and by sender, and reruns the signals without 2025 Q2 (run after 04) |
 
 ## Sources
 
