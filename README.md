@@ -124,7 +124,7 @@ The Power BI report is [`powerbi/SafetySignalExplorer.pbix`](powerbi/SafetySigna
 
 ![Canada Vigilance](images/canada-vigilance.png)
 
-Methods: data, the 2 x 2 method, limitations and the validation table.
+**Methods:** data, the 2 x 2 method, limitations and the validation table.
 
 ![Methods](images/methods.png)
 
