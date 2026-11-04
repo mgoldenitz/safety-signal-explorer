@@ -1,0 +1,1041 @@
+pt,2025Q2_reports,2024_per_quarter,increase
+Dissociation,1152,92.5,1059.5
+Sedation,952,57.5,894.5
+Dizziness,94,23.5,70.5
+Hypertension,69,30.25,38.75
+Adverse event,44,13.75,30.25
+Surgery,43,14.75,28.25
+Feeling abnormal,40,21.25,18.75
+Physical examination abnormal,16,0.0,16.0
+Device issue,26,13.0,13.0
+Nausea,54,42.25,11.75
+"Hallucination, visual",23,11.25,11.75
+Somnolence,21,9.75,11.25
+Product dose omission issue,55,44.0,11.0
+Depressed mood,14,4.0,10.0
+Malaise,14,4.75,9.25
+Depression,56,46.75,9.25
+Oxygen saturation abnormal,9,0.0,9.0
+Hospitalisation,65,56.75,8.25
+Off label use,28,20.5,7.5
+Insomnia,16,8.75,7.25
+Fatigue,21,13.75,7.25
+Crying,15,8.0,7.0
+Tremor,12,5.0,7.0
+Incorrect dose administered,9,2.5,6.5
+Poisoning,7,0.75,6.25
+Paranoia,8,1.75,6.25
+Drug ineffective,56,49.75,6.25
+Hypersensitivity,7,1.0,6.0
+Anger,8,2.0,6.0
+Device malfunction,13,7.25,5.75
+Incorrect dose administered by device,21,15.25,5.75
+Foetal exposure during pregnancy,6,0.25,5.75
+Spinal operation,9,3.75,5.25
+Paraesthesia,9,4.0,5.0
+Headache,17,12.0,5.0
+Sneezing,5,0.5,4.5
+Seizure,14,9.5,4.5
+Hyperhidrosis,9,4.5,4.5
+Euphoric mood,8,3.5,4.5
+Hypersomnia,5,0.75,4.25
+Irritability,7,2.75,4.25
+Neoplasm malignant,9,5.0,4.0
+Diplopia,5,1.0,4.0
+Speech disorder developmental,4,0.25,3.75
+Gross motor delay,4,0.25,3.75
+Panic attack,22,18.25,3.75
+Psychotic disorder,8,4.25,3.75
+Emotional disorder,6,2.25,3.75
+Visual impairment,5,1.5,3.5
+Epistaxis,5,1.5,3.5
+"Hallucination, auditory",6,2.5,3.5
+Nasopharyngitis,5,1.5,3.5
+Respiratory depression,5,1.75,3.25
+Tinnitus,4,0.75,3.25
+Discomfort,5,1.75,3.25
+Influenza,4,0.75,3.25
+Arthralgia,4,0.75,3.25
+Hallucination,18,14.75,3.25
+Rhinorrhoea,3,0.0,3.0
+Product prescribing error,3,0.0,3.0
+Treatment noncompliance,12,9.0,3.0
+Refusal of treatment by patient,3,0.0,3.0
+Sleep disorder,4,1.0,3.0
+Systemic lupus erythematosus,3,0.0,3.0
+Aphasia,3,0.25,2.75
+Muscle twitching,3,0.25,2.75
+Dysphemia,3,0.25,2.75
+Eye pain,3,0.25,2.75
+Alopecia,3,0.5,2.5
+Cardiac disorder,4,1.5,2.5
+Dyspnoea,7,4.5,2.5
+Diarrhoea,4,1.5,2.5
+Anaphylactic reaction,3,0.5,2.5
+Coordination abnormal,3,0.5,2.5
+Disability,4,1.5,2.5
+Knee arthroplasty,3,0.5,2.5
+Chest pain,8,5.5,2.5
+Vision blurred,6,3.5,2.5
+Retching,3,0.5,2.5
+Paraesthesia oral,3,0.5,2.5
+Balance disorder,5,2.75,2.25
+Burning sensation,4,1.75,2.25
+Nasal discomfort,5,2.75,2.25
+Substance use,3,0.75,2.25
+Rash,4,1.75,2.25
+Tachycardia,4,1.75,2.25
+Epilepsy,3,0.75,2.25
+Intentional self-injury,5,2.75,2.25
+Pruritus,4,1.75,2.25
+Vital functions abnormal,2,0.0,2.0
+Patient uncooperative,2,0.0,2.0
+Dry skin,2,0.0,2.0
+Toothache,2,0.0,2.0
+Gait disturbance,5,3.0,2.0
+Incorrect dose administered by product,2,0.0,2.0
+Amnesia,5,3.0,2.0
+Sexual dysfunction,2,0.0,2.0
+Hemihypoaesthesia,2,0.0,2.0
+Sleep paralysis,2,0.0,2.0
+Blister,2,0.0,2.0
+Post procedural complication,3,1.0,2.0
+Quality of life decreased,2,0.0,2.0
+General physical condition,2,0.0,2.0
+Product complaint,3,1.25,1.75
+Nasal crusting,2,0.25,1.75
+Flashback,2,0.25,1.75
+Vagal nerve stimulator implantation,2,0.25,1.75
+Device leakage,2,0.25,1.75
+Sinusitis,3,1.25,1.75
+Bradykinesia,2,0.25,1.75
+Hot flush,2,0.25,1.75
+Presyncope,3,1.25,1.75
+Cardiomyopathy,2,0.25,1.75
+Hypoaesthesia oral,4,2.25,1.75
+Reversible cerebral vasoconstriction syndrome,2,0.25,1.75
+Generalised tonic-clonic seizure,3,1.25,1.75
+Lower limb fracture,3,1.25,1.75
+Sepsis,2,0.25,1.75
+Oropharyngeal pain,2,0.5,1.5
+Impaired work ability,2,0.5,1.5
+Hypotension,5,3.5,1.5
+Dry mouth,3,1.5,1.5
+Therapy cessation,3,1.5,1.5
+Self-destructive behaviour,3,1.5,1.5
+Abdominal discomfort,2,0.5,1.5
+Hypertensive crisis,5,3.5,1.5
+Asthma,2,0.5,1.5
+Agitation,7,5.5,1.5
+Drug intolerance,4,2.5,1.5
+Arrhythmia,2,0.5,1.5
+Brain operation,2,0.5,1.5
+Alcohol abuse,2,0.5,1.5
+Blood pressure abnormal,2,0.5,1.5
+Altered state of consciousness,3,1.75,1.25
+Substance abuse,3,1.75,1.25
+Urinary incontinence,2,0.75,1.25
+Dissociative disorder,6,4.75,1.25
+Neck surgery,2,0.75,1.25
+Cataract,2,0.75,1.25
+Mental impairment,7,5.75,1.25
+Delirium,2,0.75,1.25
+Nasal septum deviation,2,0.75,1.25
+Sinus disorder,2,0.75,1.25
+Brain fog,3,1.75,1.25
+Head injury,3,1.75,1.25
+Neuropathy peripheral,2,0.75,1.25
+General physical health deterioration,3,1.75,1.25
+Self-injurious ideation,3,1.75,1.25
+Depressive symptom,2,0.75,1.25
+Dyskinesia,2,0.75,1.25
+Pneumonia,5,3.75,1.25
+Speech disorder,3,1.75,1.25
+Tachyphrenia,2,0.75,1.25
+Panic reaction,2,0.75,1.25
+Stress,4,2.75,1.25
+Dysgeusia,5,3.75,1.25
+Vomiting,29,28.0,1.0
+Slow speech,1,0.0,1.0
+Paradoxical drug reaction,1,0.0,1.0
+Hemiparaesthesia,1,0.0,1.0
+Skin exfoliation,1,0.0,1.0
+Finger amputation,1,0.0,1.0
+Cerebral small vessel ischaemic disease,1,0.0,1.0
+Product lot number issue,1,0.0,1.0
+Muscle tightness,1,0.0,1.0
+Psychotic behaviour,1,0.0,1.0
+Alcohol withdrawal syndrome,1,0.0,1.0
+Renal haemorrhage,1,0.0,1.0
+Throat cancer,1,0.0,1.0
+Sudden death,1,0.0,1.0
+Sitting disability,1,0.0,1.0
+Manic symptom,1,0.0,1.0
+Inappropriate schedule of product administration,4,3.0,1.0
+Product ineffective,1,0.0,1.0
+Dry eye,1,0.0,1.0
+Lacrimation increased,1,0.0,1.0
+"Hallucination, tactile",1,0.0,1.0
+Neurodevelopmental delay,1,0.0,1.0
+Increased dose administered,1,0.0,1.0
+Ligament sprain,1,0.0,1.0
+Electrocardiogram QT interval abnormal,1,0.0,1.0
+Suspected suicide,1,0.0,1.0
+Cannabinoid hyperemesis syndrome,1,0.0,1.0
+Biopsy lip,1,0.0,1.0
+Respiratory tract congestion,1,0.0,1.0
+Drug monitoring procedure incorrectly performed,1,0.0,1.0
+Blunted affect,1,0.0,1.0
+Sexually transmitted disease,1,0.0,1.0
+Device adhesion issue,1,0.0,1.0
+Illusion,2,1.0,1.0
+Liquid product physical issue,1,0.0,1.0
+Disinhibition,1,0.0,1.0
+Gallbladder operation,1,0.0,1.0
+Impulsive behaviour,1,0.0,1.0
+Cardiovascular insufficiency,1,0.0,1.0
+Indifference,1,0.0,1.0
+Somatic symptom disorder,1,0.0,1.0
+Social anxiety disorder,1,0.0,1.0
+Hyporesponsive to stimuli,1,0.0,1.0
+Electrocardiogram ST segment elevation,1,0.0,1.0
+Retinal vein thrombosis,1,0.0,1.0
+Tonsillitis,1,0.0,1.0
+Vulvovaginal dryness,1,0.0,1.0
+Muscle rupture,1,0.0,1.0
+Product packaging issue,1,0.0,1.0
+Exposure via breast milk,1,0.0,1.0
+Hyperaesthesia,1,0.0,1.0
+Metastatic renal cell carcinoma,1,0.0,1.0
+Chills,1,0.0,1.0
+Victim of sexual abuse,1,0.0,1.0
+Narcissistic personality disorder,1,0.0,1.0
+Shoulder operation,2,1.0,1.0
+Torticollis,1,0.0,1.0
+Product physical consistency issue,1,0.0,1.0
+Snoring,1,0.0,1.0
+Superficial injury of eye,1,0.0,1.0
+Rabbit syndrome,1,0.0,1.0
+Toxic skin eruption,1,0.0,1.0
+Toxicity to various agents,1,0.0,1.0
+Logorrhoea,1,0.0,1.0
+Skin burning sensation,1,0.0,1.0
+Ankle operation,1,0.0,1.0
+Rectal cancer,1,0.0,1.0
+Pancreatic failure,1,0.0,1.0
+Sluggishness,1,0.0,1.0
+Rotator cuff syndrome,1,0.0,1.0
+Cardio-respiratory arrest,1,0.0,1.0
+Endoscopy,1,0.0,1.0
+Pulse abnormal,1,0.0,1.0
+Alcohol use disorder,1,0.0,1.0
+Device dispensing error,1,0.0,1.0
+Oxygen saturation,1,0.0,1.0
+Hormone level abnormal,1,0.0,1.0
+Accidental overdose,1,0.0,1.0
+Lumbar vertebral fracture,1,0.0,1.0
+Product advertising issue,1,0.0,1.0
+Blepharitis,1,0.0,1.0
+Salivary gland cyst,1,0.0,1.0
+Feeling drunk,3,2.0,1.0
+Drug abuse,6,5.0,1.0
+Maternal exposure during pregnancy,1,0.0,1.0
+Skin cancer,1,0.0,1.0
+Autoimmune thyroiditis,1,0.0,1.0
+Swollen tongue,1,0.0,1.0
+Haemodynamic instability,1,0.0,1.0
+Appendicectomy,1,0.0,1.0
+Lymphoma,1,0.0,1.0
+Blood disorder,1,0.0,1.0
+Pulseless electrical activity,1,0.0,1.0
+Bone pain,1,0.0,1.0
+Pharyngeal hypoaesthesia,1,0.0,1.0
+Parathyroid tumour benign,1,0.0,1.0
+Facial operation,1,0.0,1.0
+Anorexia nervosa,1,0.0,1.0
+Intraocular pressure test abnormal,1,0.0,1.0
+Caffeine allergy,1,0.0,1.0
+Oedema,1,0.0,1.0
+Bradycardia,3,2.0,1.0
+Laziness,1,0.0,1.0
+Eye irritation,1,0.0,1.0
+Deafness,1,0.0,1.0
+Apathy,2,1.0,1.0
+Obstructive sleep apnoea syndrome,1,0.0,1.0
+Sleeve gastrectomy,1,0.0,1.0
+Cardiac failure,1,0.25,0.75
+Dental caries,1,0.25,0.75
+Hepatic function abnormal,1,0.25,0.75
+Bacterial infection,1,0.25,0.75
+Psychiatric symptom,1,0.25,0.75
+Communication disorder,1,0.25,0.75
+Migraine,7,6.25,0.75
+Abdominal operation,1,0.25,0.75
+Appetite disorder,1,0.25,0.75
+Tic,1,0.25,0.75
+Petit mal epilepsy,1,0.25,0.75
+Physical disability,1,0.25,0.75
+Gastrooesophageal reflux disease,1,0.25,0.75
+Eye movement disorder,1,0.25,0.75
+Nasal congestion,2,1.25,0.75
+Bradyphrenia,1,0.25,0.75
+Multiple fractures,1,0.25,0.75
+Multiple sclerosis relapse,1,0.25,0.75
+Bedridden,1,0.25,0.75
+Anaphylactic shock,3,2.25,0.75
+Breast cancer metastatic,1,0.25,0.75
+Depression suicidal,1,0.25,0.75
+Product dispensing issue,1,0.25,0.75
+Respiratory distress,1,0.25,0.75
+Product packaging quantity issue,1,0.25,0.75
+Drug dependence,3,2.25,0.75
+Cerebral disorder,1,0.25,0.75
+Road traffic accident,5,4.25,0.75
+Hypokinesia,2,1.25,0.75
+Pregnancy of partner,1,0.25,0.75
+Chest discomfort,2,1.25,0.75
+Seasonal allergy,1,0.25,0.75
+Meningioma,1,0.25,0.75
+Eyelid ptosis,1,0.25,0.75
+Eye haemorrhage,1,0.25,0.75
+Back pain,2,1.25,0.75
+Electric shock sensation,1,0.25,0.75
+Muscular weakness,2,1.25,0.75
+Rhinitis allergic,1,0.25,0.75
+Homicide,1,0.25,0.75
+Drug ineffective for unapproved indication,1,0.25,0.75
+Therapeutic response increased,1,0.25,0.75
+Device delivery system issue,2,1.25,0.75
+Staphylococcal infection,1,0.25,0.75
+Suicide threat,1,0.25,0.75
+Exposure during pregnancy,8,7.25,0.75
+Carpal tunnel syndrome,1,0.25,0.75
+Drug diversion,1,0.25,0.75
+Product dispensing error,1,0.25,0.75
+Spinal stenosis,1,0.25,0.75
+Pain in jaw,1,0.25,0.75
+Lethargy,2,1.25,0.75
+Ill-defined disorder,1,0.25,0.75
+Internal haemorrhage,1,0.25,0.75
+Rhinitis,1,0.25,0.75
+Physiotherapy,1,0.25,0.75
+Meniscus injury,1,0.25,0.75
+Decreased activity,1,0.25,0.75
+Pain in extremity,2,1.25,0.75
+Disturbance in social behaviour,1,0.25,0.75
+Facial paralysis,1,0.25,0.75
+Photophobia,2,1.25,0.75
+Upper respiratory tract infection,1,0.5,0.5
+Gastrointestinal disorder,2,1.5,0.5
+Lower respiratory tract infection,1,0.5,0.5
+Parkinson's disease,1,0.5,0.5
+Upper limb fracture,1,0.5,0.5
+Throat irritation,2,1.5,0.5
+Device failure,1,0.5,0.5
+Pneumothorax,1,0.5,0.5
+Hip arthroplasty,1,0.5,0.5
+Head discomfort,1,0.5,0.5
+Therapeutic product effect increased,1,0.5,0.5
+Narcolepsy,1,0.5,0.5
+Ageusia,1,0.5,0.5
+Hysterectomy,1,0.5,0.5
+Nightmare,2,1.5,0.5
+Loss of personal independence in daily activities,1,0.5,0.5
+Eye disorder,1,0.5,0.5
+Muscle spasms,1,0.5,0.5
+Spinal fracture,1,0.5,0.5
+Emotional distress,2,1.5,0.5
+Urinary retention,1,0.5,0.5
+Delusion,1,0.5,0.5
+Therapeutic product effect incomplete,2,1.5,0.5
+Brain neoplasm,1,0.5,0.5
+Impaired driving ability,1,0.5,0.5
+Living in residential institution,1,0.5,0.5
+Pulmonary embolism,2,1.5,0.5
+Gait inability,1,0.5,0.5
+Brain injury,1,0.5,0.5
+Accident,2,1.5,0.5
+Lung neoplasm malignant,1,0.5,0.5
+Bladder disorder,1,0.5,0.5
+Arthropathy,1,0.5,0.5
+Injury,3,2.5,0.5
+Cough,1,0.5,0.5
+Hypertensive emergency,1,0.5,0.5
+Erythema,1,0.5,0.5
+Feeling cold,1,0.75,0.25
+Hypopnoea,1,0.75,0.25
+Hip surgery,3,2.75,0.25
+Therapeutic procedure,1,0.75,0.25
+Drug tolerance,1,0.75,0.25
+Rib fracture,1,0.75,0.25
+Limb operation,1,0.75,0.25
+Mood altered,2,1.75,0.25
+Back disorder,1,0.75,0.25
+Blood glucose decreased,1,0.75,0.25
+General physical condition abnormal,1,0.75,0.25
+Feeling guilty,1,0.75,0.25
+Feeling of despair,1,0.75,0.25
+Psychological trauma,1,0.75,0.25
+Homicidal ideation,1,0.75,0.25
+Renal impairment,1,0.75,0.25
+Heart rate decreased,1,0.75,0.25
+Contusion,1,0.75,0.25
+Therapy interrupted,1,0.75,0.25
+Cognitive disorder,3,2.75,0.25
+Frustration tolerance decreased,1,0.75,0.25
+Vaginal haemorrhage,1,0.75,0.25
+Therapy non-responder,1,0.75,0.25
+Suicidal behaviour,1,0.75,0.25
+Unresponsive to stimuli,2,1.75,0.25
+Breast cancer,1,0.75,0.25
+Taste disorder,4,3.75,0.25
+Dysarthria,3,2.75,0.25
+Restless legs syndrome,1,0.75,0.25
+Pallor,2,1.75,0.25
+Adverse reaction,1,1.0,0.0
+Product quality issue,3,3.0,0.0
+Intracranial aneurysm,1,1.0,0.0
+Intervertebral disc protrusion,1,1.0,0.0
+Withdrawal syndrome,2,2.0,0.0
+Drug monitoring procedure not performed,1,1.0,0.0
+Cardiac operation,1,1.0,0.0
+"Hallucinations, mixed",1,1.0,0.0
+Musculoskeletal stiffness,1,1.0,0.0
+Therapy change,1,1.0,0.0
+Overdose,5,5.0,0.0
+Dependence,1,1.0,0.0
+Infection,1,1.0,0.0
+Therapeutic response unexpected,2,2.0,0.0
+Adverse drug reaction,6,6.0,0.0
+Affect lability,1,1.0,0.0
+Intrusive thoughts,1,1.0,0.0
+Alcoholism,1,1.0,0.0
+Craniofacial fracture,1,1.0,0.0
+Autism spectrum disorder,1,1.0,0.0
+Abnormal dreams,1,1.0,0.0
+Paternal exposure during pregnancy,1,1.0,0.0
+Nephrolithiasis,2,2.0,0.0
+Depersonalisation/derealisation disorder,1,1.0,0.0
+Urinary tract infection,3,3.0,0.0
+Rehabilitation therapy,3,3.0,0.0
+Confusional state,5,5.0,0.0
+Urticaria,1,1.0,0.0
+Drug hypersensitivity,1,1.0,0.0
+Restless arm syndrome,0,0.25,-0.25
+Post-acute COVID-19 syndrome,0,0.25,-0.25
+Patient elopement,0,0.25,-0.25
+Discouragement,0,0.25,-0.25
+Heavy menstrual bleeding,0,0.25,-0.25
+Galactorrhoea,0,0.25,-0.25
+Hospice care,0,0.25,-0.25
+Rotator cuff repair,0,0.25,-0.25
+Laryngitis,0,0.25,-0.25
+Ex-tobacco user,0,0.25,-0.25
+Dissociative identity disorder,0,0.25,-0.25
+Thyroid operation,0,0.25,-0.25
+Factor V deficiency,0,0.25,-0.25
+Stent removal,0,0.25,-0.25
+Suspected suicide attempt,0,0.25,-0.25
+Orthopaedic procedure,0,0.25,-0.25
+Suspected COVID-19,0,0.25,-0.25
+Foreign body in throat,0,0.25,-0.25
+Coronavirus infection,0,0.25,-0.25
+Drug titration,0,0.25,-0.25
+Near death experience,0,0.25,-0.25
+Nasal vestibulitis,0,0.25,-0.25
+Prostatic disorder,0,0.25,-0.25
+Renal failure,0,0.25,-0.25
+Lipoedema,0,0.25,-0.25
+Compulsions,0,0.25,-0.25
+Starvation,0,0.25,-0.25
+Nasal septum disorder,0,0.25,-0.25
+Bladder fibrosis,0,0.25,-0.25
+Drug screen negative,0,0.25,-0.25
+Autoscopy,2,2.25,-0.25
+Intentional product misuse,0,0.25,-0.25
+Foot deformity,0,0.25,-0.25
+Retinal tear,0,0.25,-0.25
+Hearing aid user,0,0.25,-0.25
+Intentional overdose,2,2.25,-0.25
+Ankle fracture,1,1.25,-0.25
+Drug effect less than expected,0,0.25,-0.25
+COVID-19 pneumonia,0,0.25,-0.25
+Cerebral microhaemorrhage,0,0.25,-0.25
+Urine alcohol test positive,0,0.25,-0.25
+Salivary gland enlargement,0,0.25,-0.25
+Premenstrual dysphoric disorder,0,0.25,-0.25
+Labile hypertension,0,0.25,-0.25
+Grip strength decreased,0,0.25,-0.25
+Affective disorder,0,0.25,-0.25
+Non-Hodgkin's lymphoma,0,0.25,-0.25
+Acute sinusitis,0,0.25,-0.25
+Ehlers-Danlos syndrome,0,0.25,-0.25
+Disease progression,0,0.25,-0.25
+Dysgraphia,0,0.25,-0.25
+Decreased interest,0,0.25,-0.25
+Language disorder,0,0.25,-0.25
+Choking,0,0.25,-0.25
+Gastrointestinal sounds abnormal,0,0.25,-0.25
+Gastrointestinal infection,0,0.25,-0.25
+Formication,0,0.25,-0.25
+Pulmonary oedema,0,0.25,-0.25
+Herpes zoster,0,0.25,-0.25
+Hepatic enzyme increased,0,0.25,-0.25
+Haemoglobin decreased,0,0.25,-0.25
+Discoloured vomit,0,0.25,-0.25
+Carotid artery aneurysm,0,0.25,-0.25
+Coronary artery disease,0,0.25,-0.25
+Hypotonia,0,0.25,-0.25
+Nail infection,0,0.25,-0.25
+Humerus fracture,0,0.25,-0.25
+Skin disorder,0,0.25,-0.25
+Pseudodementia,0,0.25,-0.25
+Urethritis noninfective,0,0.25,-0.25
+Gastric pacemaker insertion,0,0.25,-0.25
+Ventricular extrasystoles,0,0.25,-0.25
+Diffuse large B-cell lymphoma,0,0.25,-0.25
+Lymphoedema,0,0.25,-0.25
+Haemorrhagic stroke,0,0.25,-0.25
+Pneumonia aspiration,0,0.25,-0.25
+Arthropod bite,0,0.25,-0.25
+Psychosexual disorder,0,0.25,-0.25
+Detoxification,0,0.25,-0.25
+Palatal oedema,0,0.25,-0.25
+Lip swelling,0,0.25,-0.25
+Hypokalaemia,0,0.25,-0.25
+Stomatitis,0,0.25,-0.25
+Multiple allergies,0,0.25,-0.25
+Feeding disorder,0,0.25,-0.25
+Intracranial pressure increased,0,0.25,-0.25
+Intestinal stenosis,0,0.25,-0.25
+Complex regional pain syndrome,0,0.25,-0.25
+Drug dose omission by device,0,0.25,-0.25
+Nerve block,0,0.25,-0.25
+Mouth breathing,0,0.25,-0.25
+Epididymitis,0,0.25,-0.25
+Feeding tube user,0,0.25,-0.25
+Contraindication to medical treatment,0,0.25,-0.25
+Triple negative breast cancer,0,0.25,-0.25
+Fumbling,0,0.25,-0.25
+Joint surgery,0,0.25,-0.25
+Complication associated with device,0,0.25,-0.25
+Exercise tolerance decreased,0,0.25,-0.25
+Muscle atrophy,0,0.25,-0.25
+Procedural pain,0,0.25,-0.25
+Splenectomy,0,0.25,-0.25
+Multiple organ dysfunction syndrome,0,0.25,-0.25
+Product contamination,0,0.25,-0.25
+Bacterial food poisoning,0,0.25,-0.25
+Dementia with Lewy bodies,0,0.25,-0.25
+Obsessive thoughts,0,0.25,-0.25
+Adjustment disorder with depressed mood,0,0.25,-0.25
+Device occlusion,0,0.25,-0.25
+Subarachnoid haemorrhage,0,0.25,-0.25
+Electrocardiogram QT prolonged,0,0.25,-0.25
+Retinal haemorrhage,0,0.25,-0.25
+Retinal detachment,0,0.25,-0.25
+Motor dysfunction,0,0.25,-0.25
+Blindness transient,0,0.25,-0.25
+Breast tenderness,0,0.25,-0.25
+Stupor,0,0.25,-0.25
+Oropharyngeal discomfort,0,0.25,-0.25
+Thyroid mass,0,0.25,-0.25
+Parosmia,0,0.25,-0.25
+Renal function test,0,0.25,-0.25
+Jaw operation,0,0.25,-0.25
+Drug dispensed to wrong patient,0,0.25,-0.25
+Oncologic complication,0,0.25,-0.25
+Ureteral stent insertion,0,0.25,-0.25
+Blood pressure systolic decreased,0,0.25,-0.25
+Arthritis,0,0.25,-0.25
+Colectomy,0,0.25,-0.25
+Clavicle fracture,0,0.25,-0.25
+Personality change,0,0.25,-0.25
+Bipolar disorder,2,2.25,-0.25
+Sleep deficit,0,0.25,-0.25
+Manufacturing issue,0,0.25,-0.25
+Chemical burn,0,0.25,-0.25
+Hypoxia,1,1.25,-0.25
+Pericardial effusion,0,0.25,-0.25
+Consciousness fluctuating,0,0.25,-0.25
+Leukaemia,0,0.25,-0.25
+Asthenopia,0,0.25,-0.25
+Autonomic nervous system imbalance,0,0.25,-0.25
+Renal pain,0,0.25,-0.25
+Blood iron decreased,0,0.25,-0.25
+Elective surgery,0,0.25,-0.25
+Pseudostroke,0,0.25,-0.25
+Skin lesion,0,0.25,-0.25
+Oesophagitis,0,0.25,-0.25
+Hyperkalaemia,0,0.25,-0.25
+Hepatic failure,0,0.25,-0.25
+Cardiac arrest,0,0.25,-0.25
+Regressive behaviour,0,0.25,-0.25
+Staring,0,0.25,-0.25
+Swelling,0,0.25,-0.25
+Pituitary tumour,0,0.25,-0.25
+Eye swelling,0,0.25,-0.25
+Blood pressure diastolic increased,0,0.25,-0.25
+Breast mass,0,0.25,-0.25
+Product use issue,0,0.25,-0.25
+Acne,0,0.25,-0.25
+Central nervous system lesion,0,0.25,-0.25
+Urostomy,0,0.25,-0.25
+Urine analysis abnormal,0,0.25,-0.25
+Breast swelling,0,0.25,-0.25
+Coronary artery dissection,0,0.25,-0.25
+Urticaria chronic,0,0.25,-0.25
+Hypoglycaemia neonatal,0,0.25,-0.25
+Trichotillomania,0,0.25,-0.25
+Guillain-Barre syndrome,0,0.25,-0.25
+Pancreatitis chronic,0,0.25,-0.25
+Coronary artery occlusion,0,0.25,-0.25
+Thoracic operation,0,0.25,-0.25
+Urosepsis,0,0.25,-0.25
+Drug level increased,0,0.25,-0.25
+Respiratory syncytial virus infection,0,0.25,-0.25
+Cardioversion,0,0.25,-0.25
+Contraindicated product administered,0,0.25,-0.25
+Liver function test increased,0,0.25,-0.25
+Coeliac disease,0,0.25,-0.25
+Urine output increased,0,0.25,-0.25
+Respiratory tract infection,0,0.25,-0.25
+Heart rate increased,3,3.25,-0.25
+Tenoplasty,0,0.25,-0.25
+Emergency care,0,0.25,-0.25
+Mastication disorder,0,0.25,-0.25
+Bipolar I disorder,0,0.25,-0.25
+Ovarian cancer,0,0.25,-0.25
+Bipolar II disorder,0,0.25,-0.25
+Brain abscess,0,0.25,-0.25
+Renal stone removal,0,0.25,-0.25
+Coagulopathy,0,0.25,-0.25
+Non-cardiac chest pain,0,0.25,-0.25
+Hypersensitivity vasculitis,0,0.25,-0.25
+Bladder cancer,0,0.25,-0.25
+Drug tolerance decreased,0,0.25,-0.25
+Cholecystitis,0,0.25,-0.25
+Coronary artery bypass,0,0.25,-0.25
+Nerve injury,0,0.25,-0.25
+Unevaluable therapy,0,0.25,-0.25
+Rash pruritic,0,0.25,-0.25
+Hypothyroidism,0,0.25,-0.25
+Lacunar infarction,0,0.25,-0.25
+Arteriosclerosis coronary artery,0,0.25,-0.25
+Pancreatitis acute,0,0.25,-0.25
+Supraventricular tachycardia,0,0.25,-0.25
+Endodontic procedure,0,0.25,-0.25
+Transaminases increased,0,0.25,-0.25
+Urine abnormality,0,0.25,-0.25
+Sinus congestion,0,0.25,-0.25
+Musculoskeletal disorder,0,0.25,-0.25
+Product label issue,0,0.25,-0.25
+Thinking abnormal,2,2.25,-0.25
+Hyperacusis,1,1.25,-0.25
+Drug level decreased,0,0.25,-0.25
+Bunion operation,0,0.25,-0.25
+Posterior reversible encephalopathy syndrome,0,0.25,-0.25
+Peripheral vascular disorder,0,0.25,-0.25
+Drug use disorder,0,0.25,-0.25
+Gallbladder necrosis,0,0.25,-0.25
+Abulia,0,0.25,-0.25
+Bursitis,0,0.25,-0.25
+Optic neuritis,0,0.25,-0.25
+Endometriosis,0,0.25,-0.25
+Spinal fusion surgery,1,1.25,-0.25
+Sciatica,0,0.25,-0.25
+Inflammatory marker increased,0,0.25,-0.25
+Angioedema,0,0.25,-0.25
+Jaundice,0,0.25,-0.25
+Psoriasis,0,0.25,-0.25
+Oral pain,0,0.25,-0.25
+Rectal prolapse,0,0.25,-0.25
+Blood pressure immeasurable,0,0.25,-0.25
+Ascites,0,0.25,-0.25
+Dysphagia,1,1.25,-0.25
+Varicose vein,0,0.25,-0.25
+Ocular hyperaemia,0,0.25,-0.25
+Disease complication,0,0.25,-0.25
+Impulse-control disorder,0,0.25,-0.25
+Pancreatic carcinoma,0,0.25,-0.25
+Drug interaction,3,3.25,-0.25
+Dermatitis,0,0.25,-0.25
+Ulcer,0,0.25,-0.25
+Social avoidant behaviour,0,0.25,-0.25
+Gastric bypass,0,0.25,-0.25
+Sinus tachycardia,0,0.25,-0.25
+Enteritis,0,0.25,-0.25
+Neck injury,0,0.25,-0.25
+Thrombophlebitis,0,0.25,-0.25
+Phlebitis,0,0.25,-0.25
+Malabsorption,0,0.25,-0.25
+Tearfulness,0,0.25,-0.25
+Seborrhoea,0,0.25,-0.25
+Lymph node pain,0,0.25,-0.25
+Violence-related symptom,0,0.25,-0.25
+Nasal mucosal disorder,0,0.25,-0.25
+Pulmonary sepsis,0,0.25,-0.25
+Plantar fasciitis,0,0.25,-0.25
+Anaesthesia oral,0,0.25,-0.25
+Human chorionic gonadotropin positive,0,0.25,-0.25
+Strangulated incisional hernia,0,0.25,-0.25
+Abdominal strangulated hernia,0,0.25,-0.25
+Hyperaesthesia teeth,0,0.25,-0.25
+Confusional arousal,0,0.25,-0.25
+Pharyngeal swelling,0,0.25,-0.25
+Sensation of foreign body,0,0.25,-0.25
+Arnold-Chiari malformation,0,0.25,-0.25
+Altered visual depth perception,0,0.25,-0.25
+Apraxia,0,0.25,-0.25
+Terminal insomnia,0,0.25,-0.25
+Subcutaneous abscess,0,0.25,-0.25
+Wrong dose,0,0.25,-0.25
+Chest injury,0,0.25,-0.25
+Gastrointestinal motility disorder,0,0.25,-0.25
+Urinary tract disorder,0,0.25,-0.25
+Aspartate aminotransferase increased,0,0.25,-0.25
+Neck pain,0,0.25,-0.25
+Hypomania,1,1.25,-0.25
+Pulmonary thrombosis,0,0.25,-0.25
+Mastectomy,0,0.25,-0.25
+Cholecystectomy,0,0.25,-0.25
+Muscle injury,0,0.25,-0.25
+Dermatitis allergic,0,0.25,-0.25
+Eye haematoma,0,0.25,-0.25
+Nasal ulcer,0,0.25,-0.25
+Urinary hesitation,0,0.25,-0.25
+Sedation complication,0,0.25,-0.25
+Dystonia,1,1.25,-0.25
+Potentiating drug interaction,0,0.25,-0.25
+Medical device implantation,0,0.25,-0.25
+Therapeutic response delayed,0,0.25,-0.25
+Trismus,0,0.25,-0.25
+Jaw disorder,0,0.25,-0.25
+Cholangitis infective,0,0.25,-0.25
+Inflammation,0,0.25,-0.25
+Pelvic pain,0,0.25,-0.25
+Hepatic cyst,0,0.25,-0.25
+Gastric ulcer,0,0.25,-0.25
+Application site rash,0,0.25,-0.25
+Tonsillectomy,0,0.25,-0.25
+Product prescribing issue,0,0.25,-0.25
+Prinzmetal angina,0,0.25,-0.25
+Device deployment issue,0,0.25,-0.25
+Uterine neoplasm,0,0.25,-0.25
+Prescription drug used without a prescription,0,0.25,-0.25
+Wrist fracture,0,0.25,-0.25
+Vitreous detachment,0,0.25,-0.25
+Intracranial mass,0,0.25,-0.25
+Pregnancy,0,0.25,-0.25
+Cholecystitis infective,0,0.25,-0.25
+Flat affect,0,0.25,-0.25
+Skin hyperpigmentation,0,0.25,-0.25
+Insurance issue,0,0.25,-0.25
+Chronic sinusitis,0,0.25,-0.25
+Colorectal cancer,0,0.25,-0.25
+Facial paresis,0,0.25,-0.25
+Renal colic,0,0.25,-0.25
+Stent placement,0,0.25,-0.25
+Aortic aneurysm,0,0.25,-0.25
+Cystic fibrosis,0,0.25,-0.25
+Syringe issue,0,0.25,-0.25
+Alcohol interaction,0,0.25,-0.25
+Auditory disorder,0,0.25,-0.25
+Foot amputation,0,0.25,-0.25
+Respiration abnormal,0,0.25,-0.25
+Tongue disorder,0,0.25,-0.25
+Meniere's disease,0,0.25,-0.25
+Dysphoria,0,0.25,-0.25
+Post-traumatic pain,0,0.25,-0.25
+Coccidioidomycosis,0,0.25,-0.25
+Neuralgia,0,0.25,-0.25
+Vitrectomy,0,0.25,-0.25
+Product odour abnormal,0,0.25,-0.25
+Fear of falling,0,0.25,-0.25
+Respiratory arrest,0,0.25,-0.25
+Lung cancer metastatic,0,0.25,-0.25
+Pineal neoplasm,0,0.25,-0.25
+Night sweats,0,0.25,-0.25
+Psychomotor skills impaired,0,0.25,-0.25
+Dementia Alzheimer's type,0,0.25,-0.25
+Increased appetite,0,0.25,-0.25
+Salmonellosis,0,0.25,-0.25
+Oral discomfort,0,0.25,-0.25
+Skin odour abnormal,0,0.25,-0.25
+Poor quality product administered,0,0.25,-0.25
+Chronic gastritis,0,0.25,-0.25
+Peripheral arterial occlusive disease,0,0.25,-0.25
+Bladder ulcer,0,0.25,-0.25
+Vestibular migraine,0,0.25,-0.25
+Carotid artery occlusion,0,0.25,-0.25
+Myocardial ischaemia,0,0.25,-0.25
+Faeces discoloured,0,0.25,-0.25
+Disease recurrence,0,0.25,-0.25
+Helplessness,0,0.25,-0.25
+Wound infection,0,0.25,-0.25
+Skin laceration,0,0.25,-0.25
+Lymphadenopathy,0,0.25,-0.25
+Anal abscess,0,0.25,-0.25
+Salivary hypersecretion,0,0.25,-0.25
+Schizophrenia,0,0.25,-0.25
+Personality disorder,0,0.25,-0.25
+Pleural fibrosis,0,0.25,-0.25
+Psychiatric care,0,0.25,-0.25
+Increased need for sleep,0,0.25,-0.25
+Transcranial magnetic stimulation,0,0.25,-0.25
+Haematological infection,0,0.25,-0.25
+Anisocoria,0,0.25,-0.25
+Septic endocarditis,0,0.25,-0.25
+Product after taste,0,0.25,-0.25
+Blood pressure systolic increased,0,0.25,-0.25
+Abnormal uterine bleeding,0,0.25,-0.25
+Physical assault,0,0.25,-0.25
+Product leakage,0,0.25,-0.25
+Hepatic steatosis,0,0.25,-0.25
+Blindness,0,0.25,-0.25
+Device mechanical issue,0,0.25,-0.25
+Polycystic ovarian syndrome,0,0.25,-0.25
+Magnetic therapy,0,0.25,-0.25
+Intermenstrual bleeding,0,0.5,-0.5
+Bell's palsy,0,0.5,-0.5
+Intestinal obstruction,0,0.5,-0.5
+Nocturia,0,0.5,-0.5
+Peripheral swelling,0,0.5,-0.5
+Dyschromatopsia,0,0.5,-0.5
+Ligament rupture,0,0.5,-0.5
+Hepatic cancer,0,0.5,-0.5
+Product use complaint,0,0.5,-0.5
+Initial insomnia,0,0.5,-0.5
+Agoraphobia,0,0.5,-0.5
+Borderline personality disorder,0,0.5,-0.5
+Sleep terror,0,0.5,-0.5
+Paranasal sinus discomfort,0,0.5,-0.5
+Apnoea,0,0.5,-0.5
+Nonspecific reaction,0,0.5,-0.5
+Nasal septal operation,0,0.5,-0.5
+Gastric operation,0,0.5,-0.5
+Procedural complication,0,0.5,-0.5
+Haemorrhage,0,0.5,-0.5
+Hemiparesis,0,0.5,-0.5
+Fractured sacrum,0,0.5,-0.5
+Product formulation issue,0,0.5,-0.5
+Azotaemia,0,0.5,-0.5
+Drug withdrawal syndrome,0,0.5,-0.5
+Swelling face,0,0.5,-0.5
+Pelvic fracture,0,0.5,-0.5
+Nervous system disorder,1,1.5,-0.5
+Fear of death,0,0.5,-0.5
+Feeling of relaxation,0,0.5,-0.5
+Boredom,0,0.5,-0.5
+Burning sensation mucosal,0,0.5,-0.5
+Diabetic complication,0,0.5,-0.5
+Tooth extraction,0,0.5,-0.5
+Craniocerebral injury,0,0.5,-0.5
+Mobility decreased,0,0.5,-0.5
+Haematoma,0,0.5,-0.5
+Blood cholesterol increased,0,0.5,-0.5
+Dental implantation,0,0.5,-0.5
+Wrist surgery,0,0.5,-0.5
+Pneumonia influenzal,0,0.5,-0.5
+Therapeutic product ineffective,0,0.5,-0.5
+Rebound effect,0,0.5,-0.5
+Postural orthostatic tachycardia syndrome,0,0.5,-0.5
+Dysstasia,0,0.5,-0.5
+Autoimmune disorder,1,1.5,-0.5
+Sinus operation,0,0.5,-0.5
+Bladder irritation,0,0.5,-0.5
+Ataxia,0,0.5,-0.5
+Benign prostatic hyperplasia,0,0.5,-0.5
+Blood creatinine increased,0,0.5,-0.5
+Oral surgery,0,0.5,-0.5
+Orthostatic hypotension,0,0.5,-0.5
+Hyperventilation,0,0.5,-0.5
+Colonoscopy,0,0.5,-0.5
+Neurological symptom,0,0.5,-0.5
+Sinus headache,0,0.5,-0.5
+Scar,0,0.5,-0.5
+Nasal septum perforation,0,0.5,-0.5
+Back injury,0,0.5,-0.5
+Prescribed overdose,0,0.5,-0.5
+Aneurysm,0,0.5,-0.5
+Bronchitis,0,0.5,-0.5
+Myalgia,0,0.5,-0.5
+Nerve compression,0,0.5,-0.5
+Muscle rigidity,0,0.5,-0.5
+Abnormal behaviour,2,2.5,-0.5
+Atrial fibrillation,1,1.5,-0.5
+Haematuria,0,0.5,-0.5
+Tooth infection,0,0.5,-0.5
+SARS-CoV-2 test positive,0,0.5,-0.5
+Attention deficit hyperactivity disorder,0,0.5,-0.5
+Rhinalgia,0,0.5,-0.5
+Clostridium difficile infection,0,0.5,-0.5
+Organ failure,0,0.5,-0.5
+Patella fracture,0,0.5,-0.5
+Encephalopathy,0,0.5,-0.5
+Limb discomfort,0,0.5,-0.5
+Throat tightness,0,0.5,-0.5
+Hypertensive urgency,0,0.5,-0.5
+Peripheral coldness,0,0.5,-0.5
+Angina pectoris,0,0.5,-0.5
+Uterine prolapse,0,0.5,-0.5
+Intraocular pressure increased,0,0.5,-0.5
+Nasal polyps,0,0.5,-0.5
+Thyroid disorder,0,0.5,-0.5
+Hip fracture,0,0.5,-0.5
+Nasal obstruction,0,0.5,-0.5
+Blood pressure fluctuation,1,1.5,-0.5
+Flatulence,0,0.5,-0.5
+Incontinence,0,0.5,-0.5
+Grunting,0,0.5,-0.5
+Influenza like illness,0,0.5,-0.5
+Therapeutic response shortened,0,0.5,-0.5
+Poor quality sleep,0,0.5,-0.5
+Abdominal pain,1,1.5,-0.5
+Abdominal distension,0,0.5,-0.5
+Scoliosis,0,0.5,-0.5
+Hyponatraemia,0,0.5,-0.5
+Lyme disease,0,0.5,-0.5
+Eating disorder,1,1.5,-0.5
+Hunger,0,0.5,-0.5
+Rhabdomyolysis,0,0.5,-0.5
+Anosmia,0,0.5,-0.5
+Extra dose administered,0,0.5,-0.5
+Eczema,0,0.5,-0.5
+Blood urine present,0,0.5,-0.5
+Cardiac flutter,0,0.5,-0.5
+Mania,4,4.5,-0.5
+Wrong technique in product usage process,1,1.5,-0.5
+Screaming,0,0.75,-0.75
+Diabetes mellitus,1,1.75,-0.75
+Multiple-drug resistance,0,0.75,-0.75
+Impaired gastric emptying,0,0.75,-0.75
+Cholestasis,0,0.75,-0.75
+Anaemia,0,0.75,-0.75
+Feeling jittery,0,0.75,-0.75
+Cerebrovascular accident,5,5.75,-0.75
+Blood sodium decreased,0,0.75,-0.75
+Electroconvulsive therapy,0,0.75,-0.75
+Gastroenteritis viral,0,0.75,-0.75
+Psychomotor hyperactivity,0,0.75,-0.75
+Respiratory rate increased,0,0.75,-0.75
+Treatment failure,0,0.75,-0.75
+Drug screen positive,1,1.75,-0.75
+Chemotherapy,0,0.75,-0.75
+Crohn's disease,0,0.75,-0.75
+Product use in unapproved indication,0,0.75,-0.75
+Self-medication,0,0.75,-0.75
+Inappropriate affect,0,0.75,-0.75
+Motion sickness,0,0.75,-0.75
+Incoherent,0,0.75,-0.75
+Respiratory disorder,0,0.75,-0.75
+Fibromyalgia,0,0.75,-0.75
+Cholelithiasis,0,0.75,-0.75
+Alcohol poisoning,0,0.75,-0.75
+Conversion disorder,0,0.75,-0.75
+Foot operation,0,0.75,-0.75
+Concussion,1,1.75,-0.75
+Therapeutic product effect decreased,4,4.75,-0.75
+Movement disorder,0,0.75,-0.75
+Cold sweat,1,1.75,-0.75
+Joint injury,0,0.75,-0.75
+Suicidal ideation,74,74.75,-0.75
+Emotional poverty,0,0.75,-0.75
+Thirst,0,0.75,-0.75
+Cerebral haemorrhage,0,0.75,-0.75
+Bruxism,0,0.75,-0.75
+Product taste abnormal,0,0.75,-0.75
+Disturbance in attention,2,3.0,-1.0
+Palpitations,1,2.0,-1.0
+Akathisia,0,1.0,-1.0
+Tardive dyskinesia,0,1.0,-1.0
+Decreased appetite,1,2.0,-1.0
+Bulimia nervosa,0,1.0,-1.0
+Catatonia,0,1.0,-1.0
+Unevaluable event,4,5.0,-1.0
+Oxygen saturation decreased,3,4.0,-1.0
+Fear,1,2.0,-1.0
+Obsessive-compulsive disorder,0,1.0,-1.0
+Product administration error,1,2.0,-1.0
+Foot fracture,0,1.0,-1.0
+Substance use disorder,0,1.0,-1.0
+Nasal oedema,0,1.0,-1.0
+Accidental exposure to product,0,1.0,-1.0
+Kidney infection,0,1.0,-1.0
+Alcohol use,0,1.0,-1.0
+Multiple sclerosis,0,1.0,-1.0
+Hangover,0,1.0,-1.0
+Mental status changes,0,1.0,-1.0
+Feeling hot,1,2.0,-1.0
+Weight decreased,2,3.0,-1.0
+Acute myocardial infarction,0,1.0,-1.0
+Nasal operation,0,1.0,-1.0
+Medication error,0,1.0,-1.0
+Derealisation,0,1.0,-1.0
+Abdominal pain upper,0,1.0,-1.0
+Morbid thoughts,0,1.0,-1.0
+Negative thoughts,0,1.0,-1.0
+Pyrexia,0,1.0,-1.0
+Mood swings,0,1.0,-1.0
+Cystitis,0,1.25,-1.25
+Intentional product use issue,0,1.25,-1.25
+Hepatic cytolysis,0,1.25,-1.25
+Tooth fracture,0,1.25,-1.25
+Thrombosis,0,1.25,-1.25
+Myocardial infarction,2,3.25,-1.25
+Post-traumatic stress disorder,1,2.25,-1.25
+Serotonin syndrome,0,1.25,-1.25
+Fall,10,11.25,-1.25
+Lung disorder,0,1.25,-1.25
+Vertigo,4,5.25,-1.25
+Transient ischaemic attack,0,1.25,-1.25
+Cystitis interstitial,0,1.25,-1.25
+Psychotic symptom,0,1.25,-1.25
+Device defective,0,1.25,-1.25
+Condition aggravated,2,3.25,-1.25
+Seizure like phenomena,0,1.25,-1.25
+Anhedonia,0,1.25,-1.25
+Panic disorder,0,1.5,-1.5
+Disorientation,1,2.5,-1.5
+Knee operation,1,2.5,-1.5
+Metabolic surgery,0,1.5,-1.5
+Drug delivery system malfunction,0,1.5,-1.5
+Pancreatitis,0,1.5,-1.5
+Dementia,0,1.5,-1.5
+Sensory disturbance,0,1.5,-1.5
+Memory impairment,6,7.5,-1.5
+Hypoglycaemia,0,1.5,-1.5
+Flushing,0,1.5,-1.5
+Blood pressure decreased,1,2.75,-1.75
+Illness,6,7.75,-1.75
+Limb injury,0,1.75,-1.75
+Viral infection,0,1.75,-1.75
+Hypoaesthesia,7,8.75,-1.75
+Asthenia,3,4.75,-1.75
+Product delivery mechanism issue,2,3.75,-1.75
+Abortion spontaneous,0,1.75,-1.75
+Paralysis,0,1.75,-1.75
+Psychogenic seizure,0,1.75,-1.75
+Micturition urgency,0,2.0,-2.0
+Nervousness,0,2.0,-2.0
+Dehydration,0,2.0,-2.0
+Depressed level of consciousness,0,2.0,-2.0
+Major depression,5,7.25,-2.25
+Syncope,2,4.25,-2.25
+Drug resistance,0,2.25,-2.25
+Weight increased,0,2.5,-2.5
+Restlessness,0,2.5,-2.5
+Loss of consciousness,4,6.75,-2.75
+Aggression,0,2.75,-2.75
+Constipation,0,2.75,-2.75
+Pollakiuria,0,2.75,-2.75
+Therapeutic response decreased,2,4.75,-2.75
+Pain,3,6.5,-3.5
+Underdose,1,4.5,-3.5
+Suicide attempt,16,19.75,-3.75
+COVID-19,2,6.0,-4.0
+Mental disorder,3,7.5,-4.5
+Completed suicide,11,16.0,-5.0
+Death,18,23.25,-5.25
+Anxiety,32,40.75,-8.75
+Blood pressure increased,23,34.0,-11.0
