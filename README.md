@@ -108,19 +108,19 @@ The 2025 study of esketamine in FAERS (European Journal of Clinical Pharmacology
 
 The Power BI report is [`powerbi/SafetySignalExplorer.pbix`](powerbi/SafetySignalExplorer.pbix), with a static copy of all five pages in [`powerbi/SafetySignalExplorer.pdf`](powerbi/SafetySignalExplorer.pdf). It reads the CSVs in `outputs/`.
 
-Overview: report counts, FAERS reports per quarter for esketamine, ketamine and sertraline, and esketamine reports by age band and sex.
+**Overview:** report counts, FAERS reports per quarter for esketamine, ketamine and sertraline, and esketamine reports by age band and sex.
 
 ![Overview](images/overview.png)
 
-Signal finder: pick a drug, a comparison group and a term type. A scatter plot shows each reaction term by report count and lower 95% bound of the ROR, and a table lists the signals with ROR, PRR and the Evans flag.
+**Signal finder:** pick a drug, a comparison group and a term type. A scatter plot shows each reaction term by report count and lower 95% bound of the ROR, and a table lists the signals with ROR, PRR and the Evans flag.
 
 ![Signal finder](images/signal-finder.png)
 
-Drug comparison: number of clinical ROR signals by organ class for esketamine, ketamine and the 12 comparators, in two matrices. Drill through on a cell to see the terms behind it.
+**Drug comparison:** number of clinical ROR signals by organ class for esketamine, ketamine and the 12 comparators, in two matrices. Drill through on a cell to see the terms behind it.
 
 ![Drug comparison](images/drug-comparison.png)
 
-Canada Vigilance: clinical ROR signals per drug in FAERS and Canada Vigilance, and the top 15 FAERS reactions for a selected drug with the Canadian counts beside them. Canada Vigilance has 19 esketamine reports, too few for this analysis, so the page covers ketamine and the comparators.
+**Canada Vigilance:** clinical ROR signals per drug in FAERS and Canada Vigilance, and the top 15 FAERS reactions for a selected drug with the Canadian counts beside them. Canada Vigilance has 19 esketamine reports, too few for this analysis, so the page covers ketamine and the comparators.
 
 ![Canada Vigilance](images/canada-vigilance.png)
 
