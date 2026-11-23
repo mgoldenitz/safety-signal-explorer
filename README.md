@@ -15,7 +15,7 @@ Each drug and reaction pair gets a 2 x 2 table of report counts:
 | Drug | a | b |
 | Other reports | c | d |
 
-"Other reports" has two versions. The first is every other report in the database. The second, used for esketamine and ketamine, is reports naming one of 12 comparator antidepressants (sertraline, escitalopram, citalopram, fluoxetine, paroxetine, venlafaxine, desvenlafaxine, duloxetine, bupropion, mirtazapine, vortioxetine, trazodone), minus reports that also name the study drug. The comparator version reduces confounding by indication: people given esketamine have treatment-resistant depression, and comparing them with other people taking antidepressants takes some of that out.
+"Other reports" has two versions. The first is every other report in the database. The second, used for esketamine and ketamine, is reports naming one of 12 comparator antidepressants (sertraline, escitalopram, citalopram, fluoxetine, paroxetine, venlafaxine, desvenlafaxine, duloxetine, bupropion, mirtazapine, vortioxetine, trazodone), minus reports that also name the study drug. The comparator version reduces confounding by indication: people given esketamine have treatment-resistant depression, and comparing them with other people taking antidepressants helps to limit the confound.
 
 Ketamine reports are also split by the indication given for ketamine (psychiatric, anaesthesia or sedation, pain, other, unknown), because most ketamine use is in anaesthesia.
 
