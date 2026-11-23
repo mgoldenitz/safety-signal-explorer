@@ -128,6 +128,16 @@ The Power BI report is [`powerbi/SafetySignalExplorer.pbix`](powerbi/SafetySigna
 
 ![Methods](images/methods.png)
 
+## Diagrams
+
+![Pipeline workflow](images/diagram-workflow.svg)
+
+run_all.sh: scripts 01 to 07, plus the separate 08 esketamine checks.
+
+![Signal calculation](images/diagram-sequence.svg)
+
+What scripts/04_signals.py does to make the signals table.
+
 ## Limitations
 
 - Spontaneous reports show association, not incidence or causation. There is no count of people exposed to each drug.
