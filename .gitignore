@@ -6,3 +6,5 @@ __pycache__/
 *.part
 .ipynb_checkpoints/
 *.docx
+style-samples.md
+writing-style.md
