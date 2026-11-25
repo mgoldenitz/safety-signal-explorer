@@ -147,16 +147,23 @@ What scripts/04_signals.py does to make the signals table.
 - The term categories and the organ-class lookup are approximations of the MedDRA hierarchy, which needs a licence.
 - 466 of 51,168 FAERS drug-reaction pairs (0.9%) have no ROR because no report in the comparison group has that reaction (c = 0).
 
-## Run it (WSL)
+## Run it
+
+On Linux, macOS or WSL, with Python 3.12, from the repo folder:
 
 ```bash
-cd /mnt/c/Users/mgold/OneDrive/Desktop/Career/safety-signal-explorer
-~/brainenv/bin/python -m pip install -r requirements.txt
-~/brainenv/bin/python -m pytest -q tests          # 14 tests on hand-made files
-bash run_all.sh ~/brainenv/bin/python
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+pytest -q tests                      # 14 tests on hand-made files, no download
+export SSX_DATA=~/ssx_data           # optional; this is the default
+bash run_all.sh python
 ```
 
-`run_all.sh` downloads every FAERS quarter from 2019 Q1 (about 30 zip files of 50 to 90 MB), loads them into SQLite, de-duplicates, computes the statistics, runs validation and writes CSVs to `outputs/`. Raw files and the database go to `~/ssx_data` inside WSL, outside OneDrive, because SQLite builds fail in the OneDrive folder. Set `SSX_DATA` to use another location. For the Canadian step, download the extract from Health Canada's "Data extracts from the Canada Vigilance adverse reaction online database" page and unzip it into `~/ssx_data/raw/canada_vigilance` before running.
+`run_all.sh` downloads every FAERS quarter from 2019 Q1 (about 30 zip files of 50 to 90 MB, 2.0 GB in all), loads them into SQLite, de-duplicates, computes the statistics, runs validation and writes CSVs to `outputs/`. The database is about 2.0 GB. Raw files and the database go to `$SSX_DATA`, which is `~/ssx_data` if you do not set it. Put `$SSX_DATA` on a local disk, not in a cloud-synced folder such as OneDrive, because SQLite builds fail there.
+
+The Canadian step needs a manual download. Download the extract from Health Canada's "Data extracts from the Canada Vigilance adverse reaction online database" page and unzip it into `$SSX_DATA/raw/canada_vigilance` (about 2.8 GB unzipped) before you run. If this folder is missing, `run_all.sh` skips step 07 and prints "No Canada Vigilance extract found; skipping 07." The Canadian CSVs in `outputs/` then stay as they were.
+
+The tests run on GitHub Actions on each push (`.github/workflows/tests.yml`).
 
 | Script | Does |
 | --- | --- |
